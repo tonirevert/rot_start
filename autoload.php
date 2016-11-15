@@ -1,7 +1,7 @@
 <?php
   /*** nullify any existing autoloads ***/
   spl_autoload_register(null, false);
-  
+
   spl_autoload_extensions('.php,.inc.php,.class.php,.class.singleton.php');
 
   spl_autoload_register('loadClasses');
@@ -16,6 +16,9 @@
 			spl_autoload($className);
 		}elseif( file_exists('model/'.$className.'.class.singleton.php' ) ){
 			set_include_path('model/');
+			spl_autoload($className);
+		}elseif( file_exists('classes/'.$className.'.class.singleton.php' ) ){
+			set_include_path('classes/');
 			spl_autoload($className);
 		}
 	}

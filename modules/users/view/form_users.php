@@ -21,7 +21,8 @@
       </p>
       <p>
         <label for="mobile">Mobile:</label>
-        <input type="text" name="mobile" id="mobile" placeholder="Mobile">
+        <input type="text" name="mobile" id="mobile" placeholder="Mobile"/>
+        <span id="error_mobile" class="styerror"></span>
       </p>
       <p>
         <label for="email">e-mail:</label>
@@ -76,7 +77,7 @@
         <span id="error_street" class="styerror"></span>
       </p>
       <p>
-        <span id="error_avatar" class="styerror"></span>
+        <span id="e_avatar" class="styerror"></span>
       </p>
 
       <div class="form-group" id="progress">

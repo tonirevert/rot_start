@@ -19,6 +19,13 @@ function validate_surnames(surnames) {
     }
     return false;
 }
+function validate_mobile(mobile){
+    if (mobile.length > 0){
+        var regexp = /^[+]34\d{9}$/;
+        return regexp.test(mobile);
+    }
+    return false;
+}
 function validate_email(email) {
     if (email.length > 0) {
         var regexp = /^[A-Z0-9._%+-]+@(?:[A-Z0-9-]+.)+[A-Z]{2,4}$/i;
@@ -61,29 +68,15 @@ function validate_country(country) {
     }
     if (country.length > 0) {
         var regexp = /^[a-zA-Z]*$/;
-        return regexp.test(pais);
+        return regexp.test(country);
     }
     return false;
 }
-// function validate_province(province) {
-//     if (province == null) {
-//         return 'default_province';
-//     }
-//     if (province.length == 0) {
-//         return 'default_province';
-//     }
-//     if (province === 'Select province') {
-//         //return 'default_provincia';
-//         return false;
-//     }
-//     if (province.length > 0) {
-//         var regexp = /^[a-zA-Z0-9, ]*$/;
-//         return regexp.test(province);
-//     }
-//     return false;
-// }
 function validate_province(province) {
-    if (province === "") {
+    if (province == null) {
+        return 'default_province';
+    }
+    if (province.length == 0) {
         return 'default_province';
     }
     if (province === 'Select province') {
@@ -96,6 +89,24 @@ function validate_province(province) {
     }
     return false;
 }
+// function validate_province(province) {
+//   console.log("validate province: "+province);
+//     if (province === "") {
+//       console.log("validate province === vacio ");
+//         return 'default_province';
+//     }
+//     if (province === 'Select province') {
+//       console.log("validate province === Select....");
+//         //return 'default_provincia';
+//         return false;
+//     }
+//     if (province.length > 0) {
+//       console.log("validate province > 0 ");
+//         var regexp = /^[a-zA-Z0-9, ]*$/;
+//         return regexp.test(province);
+//     }
+//     return false;
+// }
 function validate_city(city) {
     if (city == null) {
         return 'default_city';
@@ -125,6 +136,7 @@ function validate_street(street) {
 function validate_user() {
     var result = true;
 
+    console.log("validate_user");
     var dni = document.getElementById('dni').value;
   	var name = document.getElementById('name').value;
   	var surnames = document.getElementById('surnames').value;
@@ -174,7 +186,7 @@ function validate_user() {
   }
 
   if (!v_mobile) {
-        document.getElementById('error_mobile').innerHTML = "Invalid mobile number";
+        document.getElementById('error_mobile').innerHTML = "Invalid mobile number must be +34xxxxxxxxx";
         result = false;
     } else {
         document.getElementById('error_mobile').innerHTML = "";
@@ -254,29 +266,54 @@ function validate_user() {
             return 'default_city';
         }
 
-        var data = {"dni": dni, "name": name, "surnames": surnames, "email": email,
-        "password": password, "date_birthday": date_birthday, "type": type, "country": country,
-        "province": province, "city": city
+        var data = {"dni": dni, "name": name, "surnames": surnames, "mobile": mobile,"email": email,
+        "password": password, "password2":password2, "date_birthday": date_birthday, "type": type, "country": country,
+        "province": province, "city": city, "street": street
         }
 
-        var data_users_JSON = JSON.stringify(data);
-        //$.post('modules/users/controller/controller_users.class.php', {alta_users_json: data_users_JSON},
-        $.post('index.php?module=users&function=register_users', {register_users_json: data_users_JSON},
+        var data_users_json = JSON.stringify(data);
+        console.log(data_users_json);
+
+        $.post('index.php?module=users&function=alta_users', { alta_users_json: data_users_json },
             function (response) {
+              console.log(response.redirect);
                 if(response.success){
                     window.location.href=response.redirect;
                 }
-            ///// per a debuguejar loadmodel ////////
-                //alert(response);
-                //console.log(response);
-            //////////////////////////////////////////
-        //}); //para debuguear
+
         }, "json")
         //.fail(function(xhr) {
         .fail( function( xhr, textStatus, errorThrown ){
             //alert( "error" );
+            console.log(xhr.responseText);
+            console.log(textStatus);
+            console.log(errorThrown);
 
-            $("#error_avatar").html(xhr.responseJSON.error_avatar);
+            // if (xhr.status === 0) {
+            //     alert('Not connect: Verify Network.');
+            // } else if (xhr.status == 404) {
+            //     alert('Requested page not found [404]');
+            // } else if (xhr.status == 500) {
+            //     alert('Internal Server Error [500].');
+            // } else if (textStatus === 'parsererror') {
+            //     alert('Requested JSON parse failed.');
+            // } else if (textStatus === 'timeout') {
+            //     alert('Time out error.');
+            // } else if (textStatus === 'abort') {
+            //     alert('Ajax request aborted.');
+            // } else {
+            //     console.log("entra al último");
+            //     //$.get( "modules/users/view/error.php");
+            //     //window.location.href=xhr.responseText;
+            //     //alert('Uncaught Error: ' + xhr.responseText);
+            // }
+
+            if (xhr.responseJSON == 'undefined' && xhr.responseJSON === null ){
+                xhr.responseJSON = JSON.parse(xhr.responseText);
+            }
+
+            $("#e_avatar").html(xhr.error_avatar);
+
 
             if(!(xhr.responseJSON.success1)){
                 $("#progress").hide();
@@ -297,6 +334,11 @@ function validate_user() {
             if (xhr.responseJSON !== undefined && xhr.responseJSON !== null) {
                 if (xhr.responseJSON.error.surnames !== undefined && xhr.responseJSON.error.surnames !== null) {
                     $("#error_surnames").text(xhr.responseJSON.error.surnames);
+                }
+            }
+            if (xhr.responseJSON !== undefined && xhr.responseJSON !== null) {
+                if (xhr.responseJSON.error.mobile !== undefined && xhr.responseJSON.error.mobile !== null) {
+                    $("#error_mobile").text(xhr.responseJSON.error.mobile);
                 }
             }
             if (xhr.responseJSON !== undefined && xhr.responseJSON !== null) {
@@ -343,11 +385,12 @@ function validate_user() {
     }
 }
 
+Dropzone.autoDiscover = false;
 $(document).ready(function () {
-    console.log("entra");
+
     $("#progress").hide();
 
-    //$.datepicker.setDefaults($.datepicker.regional["es"]);
+    $.datepicker.setDefaults($.datepicker.regional["es"]);
     $('#date_birthday').datepicker({
       dateFormat: 'dd/mm/yy',
       changeMonth: true,
@@ -356,6 +399,7 @@ $(document).ready(function () {
     });
 
     $('#submit_user').click(function () {
+      console.log("submit_user");
         validate_user();
     });
 
@@ -367,15 +411,22 @@ $(document).ready(function () {
                 $("#dni").val('');
                 $("#name").val('');
                 $("#surnames").val('');
+                $("#mobile").val('');
                 $("#email").val('');
+                $("#password").val('');
+                $("#password2").val('');
                 $("#date_birthday").val('');
                 $("#street").val('');
             }else{
                 $("#dni").attr("value",response.user.dni);
                 $("#name").attr("value",response.user.name);
                 $("#surnames").attr("value",response.user.surnames);
+                $("#mobile").attr("value",response.user.mobile);
                 $("#email").attr("value",response.user.email);
                 $("#date_birthday").attr("value",response.user.date_birthday);
+                $("#country").attr("value",response.user.country);
+                $("#province").attr("value",response.user.province);
+                $("#city").attr("value",response.user.city);
                 $("#street").attr("value",response.user.street);
             }
     }, "json");

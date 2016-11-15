@@ -1,5 +1,7 @@
 <?php
+
 function validate_user($value){
+
   $error = array();
   $valid = true;
   $filter = array(
@@ -16,6 +18,11 @@ function validate_user($value){
     'surnames' => array(
       'filter'=>FILTER_VALIDATE_REGEXP,
       'options'=>array('regexp'=>'/^[a-zA-Z0-9]*$/')
+    ),
+
+    'mobile' => array(
+      'filter'=>FILTER_VALIDATE_REGEXP,
+      'options'=>array('regexp'=>'/^[+]34\d{9}$/')
     ),
 
     'email' => array(
@@ -54,11 +61,13 @@ function validate_user($value){
 
     'street' => array(
       'filter'=>FILTER_VALIDATE_REGEXP,
-      'options'=>array('regexp'=>'/^.{4,30}$/')
-    )
+      'options' => array('regexp' => '/^[0-9A-Za-z\s]{2,30}$/')
+    ),
   );
 
   $result = filter_var_array($value, $filter);
+  $result['type'] = $value['type'];
+  $result['password2'] = $value['password2'];
 
       if ($result['date_birthday']) {
           $datebirthday = validate_datebirthday($value['date_birthday']);
@@ -84,6 +93,11 @@ function validate_user($value){
           $result['surnames'] = $value['surnames'];
           $valid = false;
       }
+      if (!$result['mobile']) {
+          $error['mobile'] = 'Invalid mobile must be +34xxxxxxxxx';
+          $result['mobile'] = $value['mobile'];
+          $valid = false;
+      }
       if (!$result['email']) {
           $error['email'] = 'invalid email';
           $result['email'] = $value['email'];
@@ -94,33 +108,33 @@ function validate_user($value){
           $result['password'] = $value['password'];
           $valid = false;
       }
-      if(!$result['password'] || $result['password']!=$value['password2'] ){
+      if(!$result['password'] || $result['password']!=$result['password2'] ){
           $error['password'] = 'invalid password repeat';
           $result['password'] = $value['password'];
           $valid = false;
       }
       if (!$result['date_birthday']) {
-          $error['date_birthday'] = 'date_birthday introducida no válida';
+          $error['date_birthday'] = 'Invalid date birthday';
           $result['date_birthday'] = $value['date_birthday'];
           $valid = false;
       }
       if (!$result['country']) {
-          $error['country'] = 'invalid country';
+          $error['country'] = 'Invalid country';
           $result['country'] = $value['country'];
           $valid = false;
       }
       if (!$result['province']) {
-          $error['province'] = 'invalid province';
+          $error['province'] = 'Invalid province';
           $result['province'] = $value['province'];
           $valid = false;
       }
       if (!$result['city']) {
-          $error['city'] = 'invalid city';
+          $error['city'] = 'Invalid city';
           $result['city'] = $value['city'];
           $valid = false;
       }
       if (!$result['street']) {
-          $error['street'] = 'invalid street';
+          $error['street'] = 'Invalid street';
           $result['street'] = $value['street'];
           $valid = false;
       }
@@ -131,9 +145,11 @@ function validate_dni($dni){
 	$letter = substr($dni, -1);
 	$numbers = substr($dni, 0, -1);
 	if ( substr("TRWAGMYFPDXBNJZSQVHLCKE", $numbers%23, 1) == $letter && strlen($letter) == 1 && strlen ($numbers) == 8 ){
-		echo 'valido';
+    return $dni;
+    //echo 'valido';
 	}else{
-		echo 'no valido';
+    return false;
+		//echo 'no valido';
 	}
 }
 

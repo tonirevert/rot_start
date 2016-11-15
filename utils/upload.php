@@ -109,7 +109,7 @@ function upload_files() {
 }//End upload_files
 
 function remove_files(){
-	$name = $_POST['filename'];
+	$name = $_SESSION['nombreFichero'];
   //echo json_encode($name);
   //exit;
 	if(file_exists(MEDIA_PATH.$name)){

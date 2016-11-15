@@ -1,6 +1,11 @@
 <?php
   require_once("paths.php");
   require 'autoload.php';
+  include(UTILS . "filters.inc.php");
+  include(UTILS . "utils.inc.php");
+  include(UTILS . "response_code.inc.php");
+  //include(UTILS . "common.inc.php");
+
 
   if(PRODUCTION){
       ini_set('display_errors', '1');
@@ -47,22 +52,19 @@
   					$obj = new $controllerClass;
 
   				} else {
-  					//die($URI_module . ' - Controlador no encontrado');
-
-  					showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+            showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
   				}
 	        handlerfunction(((String)$module->name), $obj, $URI_function);
 	        break;
 	        }
 	    }
 	    if (!$exist) {
-	        //die($URI_module . ' - Controlador no encontrado');
-	        showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+          showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
 	    }
 	}//End handleModule
 
   function handlerFunction($module, $obj, $URI_function){
-      
+
       $functions = simplexml_load_file(MODULES_PATH . $module . "/resources/functions.xml");
       $exist = false;
 
@@ -76,7 +78,7 @@
           }
       }
       if(!$exist){
-        showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+        showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
       }else{
         call_user_func(array($obj, $event));
       }

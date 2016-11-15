@@ -18,6 +18,7 @@ class users_dao {
         $dni = $arrArgument['dni'];
         $name = $arrArgument['name'];
         $surnames = $arrArgument['surnames'];
+        $mobile = $arrArgument['mobile'];
         $email = $arrArgument['email'];
         $password = $arrArgument['password'];
         $date_birthday = $arrArgument['date_birthday'];
@@ -30,10 +31,10 @@ class users_dao {
 
 
 
-        $sql = "INSERT INTO products (dni, name, surnames, email,"
-                . " password, cat1, cat2, cat3, cat4, type, country, province,"
+        $sql = "INSERT INTO users (dni, name, surnames, mobile, email,"
+                . " password, date_birthday, type, country, province,"
                 . " city, street, avatar) VALUES ('$dni', '$name',"
-                . " '$surnames', '$email', '$password', '$date_birthday', "
+                . " '$surnames', '$mobile', '$email', '$password', '$date_birthday', "
                 . " '$type', '$country', '$province',"
                 . " '$city', '$street', '$avatar')";
 

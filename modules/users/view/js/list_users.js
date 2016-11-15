@@ -1,4 +1,5 @@
 function load_users_get() {
+    console.log("laod_users_get");
     //var jqxhr = $.get( "modules/users/controller/controller_users.class.php?load=true", function(data) {
     var jqxhr = $.get( "index.php?module=users&function=load_users&load=true", function(data) {
         //alert( data );
@@ -19,6 +20,7 @@ function load_users_get() {
 }
 
 $(document).ready(function () {
+    console.log("document ready list users");
     load_users_get();
 });
 
@@ -28,9 +30,9 @@ function pintar_user(data) {
     var div_user = document.createElement("div");
     var parrafo = document.createElement("p");
 
-    var msje = document.createElement("div");
-    msje.innerHTML= "msje = ";
-    msje.innerHTML+= data.msje;
+    var message = document.createElement("div");
+    message.innerHTML= "message = ";
+    message.innerHTML+= data.message;
 
     var email = document.createElement("div");
     email.innerHTML= "email = ";
@@ -52,7 +54,7 @@ function pintar_user(data) {
     //alert(html);
 
     div_user.appendChild(parrafo);
-    parrafo.appendChild(msje);
+    parrafo.appendChild(message);
     parrafo.appendChild(email);
     parrafo.appendChild(avatar);
     parrafo.appendChild(date_birthday);

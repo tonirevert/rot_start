@@ -2,14 +2,14 @@
 	class controller_users {
 
       public function __construct(){
-          
+
           include(FUNCTIONS_USERS . "functions.inc.php");
           include(UTILS . "upload.php");
-          include(UTILS . "common.inc.php");
+          //include(UTILS . "common.inc.php");
           include LOG_DIR;
-          include(UTILS . "filters.inc.php");
-          include(UTILS . "utils.inc.php");
-          include(UTILS . "response_code.inc.php");
+          //include(UTILS . "filters.inc.php");
+          //include(UTILS . "utils.inc.php");
+          //include(UTILS . "response_code.inc.php");
 
           $_SESSION['module'] = "users";
 
@@ -19,13 +19,13 @@
         require_once(VIEW_PATH_INC."header.php");
         require_once(VIEW_PATH_INC."menu.php");
 
-        echo '<br><br><br><br><br><br><br>';
+        echo '<br><br>';
         loadView('modules/users/view/','form_users.php');
 
         require_once(VIEW_PATH_INC."footer.html");
       }//create users
 
-			public function results_users(){
+			public function result_users(){
         require_once(VIEW_PATH_INC."header.php");
         require_once(VIEW_PATH_INC."menu.php");
 
@@ -42,11 +42,11 @@
         }
       }//upload_users
 
-			public function register_users(){
-        if((isset($_POST["register_users_json"]))){
+			public function alta_users(){
+        if((isset($_POST["alta_users_json"]))){
           $jsondata= array();
 
-          $usersJSON = json_decode($_POST["register_users_json"], true);
+          $usersJSON = json_decode($_POST["alta_users_json"], true);
           $result = validate_user($usersJSON);
 
           if(empty($_SESSION['result_avatar'])){
@@ -59,6 +59,7 @@
                   'dni' => $result['data']['dni'],
                   'name' => $result['data']['name'],
                   'surnames' => $result['data']['surnames'],
+									'mobile' => $result['data']['mobile'],
                   'email' => $result['data']['email'],
                   'password' => $result['data']['password'],
                   'date_birthday' => $result['data']['date_birthday'],
@@ -95,7 +96,13 @@
                   echo json_encode($jsondata);
                   exit;
               }else{
-                  showErrorPage(1, "", 'HTTP/1.0 503 Service Unavaiable', 503);
+                  //showErrorPage(1, "", 'HTTP/1.0 503 Service Unavaiable', 503);
+									$callback="index.php?module=error&function=error";
+
+                  $jsondata['success'] = true;
+                  $jsondata['redirect'] = $callback;
+                  echo json_encode($jsondata);
+                  exit;
               }
           }else{
               $jsondata["success"] = false;
@@ -104,6 +111,7 @@
 
               $jsondata["success1"] = false;
               if($result_avatar['result']){
+
                   $jsondata['success1'] = true;
                   $jsondata["img_avatar"] = $result_avatar['data'];
               }
