@@ -2,6 +2,8 @@
     <br><br>
     <div id="header" class="status<?php echo $arrData['code']?>">
       <?php
+      // $arrData['code']= "400";
+      // $arrData['text']="ERROR";
       if (isset($arrData) && !empty($arrData)){
         //https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
        ?>

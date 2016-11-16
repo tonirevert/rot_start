@@ -2,9 +2,9 @@
   class controller_contact{
 
     public function __construct() {
-      include(UTILS. "common.inc.php");
+      //include(UTILS. "common.inc.php");
       include LOG_DIR;
-      include(UTILS. "response_code.inc.php");
+      //include(UTILS. "response_code.inc.php");
     }
 
     public function begin(){

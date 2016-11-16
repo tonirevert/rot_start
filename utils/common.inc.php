@@ -15,8 +15,9 @@
     			$log->add_log_general("error loadView", $_GET['module'], "response ".http_response_code()); //$text, $controller, $function
     			$log->add_log_user("error loadView", "", $_GET['module'], "response ".http_response_code()); //$msg, $username = "", $controller, $function
 
-    			$result = response_code(http_response_code());
-    			$arrData = $result;
+    			// $result = response_code(http_response_code());
+
+          //  $arrData = $result;
           require_once (VIEW_PATH_INC_ERROR.'error.php');
 
     		}

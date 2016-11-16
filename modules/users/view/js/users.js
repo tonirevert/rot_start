@@ -5,6 +5,7 @@ function validate_dni(dni) {
     }
     return false;
 }
+
 function validate_name(name) {
     if (name.length > 0) {
         var regexp = /^[a-zA-Z0-9]*$/;
@@ -12,6 +13,7 @@ function validate_name(name) {
     }
     return false;
 }
+
 function validate_surnames(surnames) {
     if (surnames.length > 0) {
         var regexp = /^[a-zA-Z0-9]*$/;
@@ -19,6 +21,7 @@ function validate_surnames(surnames) {
     }
     return false;
 }
+
 function validate_mobile(mobile){
     if (mobile.length > 0){
         var regexp = /^[+]34\d{9}$/;
@@ -26,6 +29,7 @@ function validate_mobile(mobile){
     }
     return false;
 }
+
 function validate_email(email) {
     if (email.length > 0) {
         var regexp = /^[A-Z0-9._%+-]+@(?:[A-Z0-9-]+.)+[A-Z]{2,4}$/i;
@@ -33,6 +37,7 @@ function validate_email(email) {
     }
     return false;
 }
+
 function validate_password(password) {
     if (password.length > 0) {
         var regexp = /^[a-zA-Z0-9]*$/;
@@ -40,12 +45,14 @@ function validate_password(password) {
     }
     return false;
 }
+
 function validate_password2(password, password2) {
 	if(password === password2){
 		return true;
     }
     return false;
 }
+
 function validate_date_birthday(date_birthday) {
     if (date_birthday.length > 0) {
         var regexp = /\d{2}.\d{2}.\d{4}$/;
@@ -53,6 +60,7 @@ function validate_date_birthday(date_birthday) {
     }
     return false;
 }
+
 function validate_country(country) {
     if (country == null) {
         //return 'default_country';
@@ -72,6 +80,7 @@ function validate_country(country) {
     }
     return false;
 }
+
 function validate_province(province) {
     if (province == null) {
         return 'default_province';
@@ -89,24 +98,7 @@ function validate_province(province) {
     }
     return false;
 }
-// function validate_province(province) {
-//   console.log("validate province: "+province);
-//     if (province === "") {
-//       console.log("validate province === vacio ");
-//         return 'default_province';
-//     }
-//     if (province === 'Select province') {
-//       console.log("validate province === Select....");
-//         //return 'default_provincia';
-//         return false;
-//     }
-//     if (province.length > 0) {
-//       console.log("validate province > 0 ");
-//         var regexp = /^[a-zA-Z0-9, ]*$/;
-//         return regexp.test(province);
-//     }
-//     return false;
-// }
+
 function validate_city(city) {
     if (city == null) {
         return 'default_city';
@@ -284,10 +276,8 @@ function validate_user() {
         }, "json")
         //.fail(function(xhr) {
         .fail( function( xhr, textStatus, errorThrown ){
-            //alert( "error" );
             console.log(xhr.responseText);
-            console.log(textStatus);
-            console.log(errorThrown);
+
 
             // if (xhr.status === 0) {
             //     alert('Not connect: Verify Network.');

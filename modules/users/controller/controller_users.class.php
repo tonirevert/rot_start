@@ -97,8 +97,10 @@
                   exit;
               }else{
                   //showErrorPage(1, "", 'HTTP/1.0 503 Service Unavaiable', 503);
+									
 									$callback="index.php?module=error&function=error";
-
+									// $arrData['code']= "400";
+									// $arrData['text']="DB Error";
                   $jsondata['success'] = true;
                   $jsondata['redirect'] = $callback;
                   echo json_encode($jsondata);
