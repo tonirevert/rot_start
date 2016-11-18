@@ -1,10 +1,12 @@
 <?php
   require_once("paths.php");
   require 'autoload.php';
+
   include(UTILS . "filters.inc.php");
   include(UTILS . "utils.inc.php");
   include(UTILS . "response_code.inc.php");
-  //include(UTILS . "common.inc.php");
+  include(UTILS . "common.inc.php");
+  
 
 
   if(PRODUCTION){
@@ -17,7 +19,6 @@
 
   session_start();
   $_SESSION['module'] = "";
-
   function handlerRouter(){
       if(!empty($_GET['module'])){
           $URI_module = $_GET['module'];
@@ -30,7 +31,6 @@
       }else{
           $URI_function = 'begin';
       }
-
       handlermodule($URI_module, $URI_function);
   }//End handleRouter
 
@@ -43,14 +43,12 @@
 	        if (($URI_module === (String)$module->uri)) {
 	            $exist = true;
 
-	            $path = MODULES_PATH . $URI_module."/controller/controller_".$URI_module.".class.php";
+	        $path = MODULES_PATH . $URI_module."/controller/controller_".$URI_module.".class.php";
   				if (file_exists($path)) {
-
             require_once($path);
-
   					$controllerClass = "controller_" . $URI_module;
-  					$obj = new $controllerClass;
 
+  					$obj = new $controllerClass;
   				} else {
             showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
   				}
@@ -69,8 +67,6 @@
       $exist = false;
 
       foreach ($functions->function as $function) {
-
-
           if(($URI_function === (String)$function->uri)){
               $exist = true;
               $event = (String) $function->name;

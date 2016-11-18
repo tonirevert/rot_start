@@ -266,8 +266,11 @@ function validate_user() {
         var data_users_json = JSON.stringify(data);
         console.log(data_users_json);
 
-        $.post('index.php?module=users&function=alta_users', { alta_users_json: data_users_json },
+        // $.post('index.php?module=users&function=alta_users', { alta_users_json: data_users_json },
+        $.post('../../users/alta_users/', { alta_users_json: data_users_json },
+
             function (response) {
+              console.log("response PHP: "+response);
               console.log(response.redirect);
                 if(response.success){
                     window.location.href=response.redirect;
@@ -394,7 +397,8 @@ $(document).ready(function () {
     });
 
     //$.get( "modules/users/controller/controller_users.class.php?load_data=true",
-    $.get( "index.php?module=users&function=load_data_users&load_data=true",
+    // $.get( "index.php?module=users&function=load_data_users&load_data=true",
+    $.post("../../users/load_data_users/",{'load_data':true},
         function( response ) {
             //alert(response.user);
             if(response.user === ""){
@@ -422,24 +426,26 @@ $(document).ready(function () {
     }, "json");
 
     $("#dropzone").dropzone({
-			//url: "modules/users/controller/controller_users.class.php?upload=true",
-			url: "index.php?module=users&function=upload_users&upload=true",
+			url: "../../users/upload_users/",
+      params:{ upload: true },
 			addRemoveLinks: true,
 			maxFileSize: 1000,
-			dictResponseError: "Server errors",
+			dictResponseError: "Server error",
 			acceptedFiles: 'image/*,.jpeg,.jpg,.png,.gif,.JPEG,.JPG,.PNG,.GIF,.rar,application/pdf,.psd',
 
 			init: function() {
 			    this.on("success", function(file, response) {
-			        //alert(response);
+            console.log(file);
+			        // alert(response);
 			        $("#progress").show();
-                    $("#bar").width('100%');
+              $("#bar").width('100%');
         			$("#percent").html('100%');
         			$('.msg').text('').removeClass('msg_error');
         			$('.msg').text('Success Upload image!!').addClass('msg_ok').animate({ 'right' : '300px' }, 300);
 			    });
 		    },
 			complete: function(file){
+        // console.log(file);
 				//if(file.status == "success"){
 					//alert("El archivo se ha subido correctamente: " + file.street);
 				//}
@@ -449,21 +455,23 @@ $(document).ready(function () {
 			},
 			removedfile: function(file, serverFileName){
 				var name = file.name;
+        alert(name);
 				$.ajax({
 					type: "POST",
-					//url: "modules/users/controller/controller_users.class.php?delete=true",
-					url: "index.php?module=users&function=delete_users&delete=true",
-					data: "filename="+name,
+					url: "../../users/delete_users/",
+					data: {"filename":name, "delete":true},
 					success: function(data){
 					    $("#progress").hide();
-    				    $('.msg').text('').removeClass('msg_ok');
-    				    $('.msg').text('').removeClass('msg_error');
-    				    $("#e_avatar").html("");
+    				  $('.msg').text('').removeClass('msg_ok');
+    				  $('.msg').text('').removeClass('msg_error');
+    				  $("#e_avatar").html("");
 
 						var json = JSON.parse(data);
+            console.log(json);
 						if(json.res === true){
 						    var element;
 							if ((element = file.previewElement) != null){
+                console.log(element);
 							    element.parentNode.removeChild(file.previewElement);
 							    //alert("Imagen eliminada: " + name);
 							}else{
@@ -532,27 +540,29 @@ function load_countries_v2(cad) {
 }
 
 function load_countries_v1() {
-    //$.get( "modules/users/controller/controller_users.class.php?load_pais=true",
-    $.get( "index.php?module=users&function=load_country_users&load_country=true",
+
+    // $.get( "index.php?module=users&function=load_country_users&load_country=true",
+    $.post("../../users/load_countries_users/",{ load_country:true },
         function( response ) {
             //alert(response);
             //console.log("response: "+response);
             if(response.match(/error/)){
                 //console.log("if de response error");
-                load_countries_v2("resources/ListOfCountryNamesByName.json");
+                load_countries_v2("../../resources/ListOfCountryNamesByName.json");
             }else{
                 //console.log("else de response error");
-                //load_countries_v2("modules/users/controller/controller_users.class.php?load_pais=true"); //oorsprong.org
-                load_countries_v2("index.php?module=users&function=load_country_users&load_country=true"); //oorsprong.org
+                // load_countries_v2("modules/users/controller/controller_users.class.php?load_pais=true"); //oorsprong.org
+                // load_countries_v2("index.php?module=users&function=load_country_users&load_country=true"); //oorsprong.org
+                load_countries_v2("../users/load_countries_users/",{ load_country:true }); //oorsprong.org
             }
     })
     .fail(function(response) {
-        load_countries_v2("resources/ListOfCountryNamesByName.json");
+        load_countries_v2("../../resources/ListOfCountryNamesByName.json");
     });
 }
 
 function load_provinces_v2() {
-    $.get("resources/provinciasypoblaciones.xml", function (xml) {
+    $.get("../../resources/provinciasypoblaciones.xml", function (xml) {
       $("#province").empty();
 	    $("#province").append('<option value="" selected="selected">Select province</option>');
 
@@ -569,13 +579,13 @@ function load_provinces_v2() {
 
 function load_provinces_v1() { //provinciasypoblaciones.xml - xpath
     //$.get( "modules/users/controller/controller_users.class.php?load_provincias=true",
-    $.get( "index.php?module=users&function=load_provinces_users&load_provinces=true",
+    // $.get( "index.php?module=users&function=load_provinces_users&load_provinces=true",
+    $.post("../../users/load_provinces_users",{'load_provinces':true},
         function( response ) {
-          //console.log(response.provinces);
+          console.log("Response: "+response);
           $("#province").empty();
-          $("#province").append('<option value="" selected="selected">Select province</option>');
+          $("#province").append('<option value="Select province" selected="selected">Select province</option>');
 
-            //alert(response);
             var json = JSON.parse(response);
 		        var provinces=json.provinces;
 
@@ -593,7 +603,8 @@ function load_provinces_v1() { //provinciasypoblaciones.xml - xpath
 }
 
 function load_cities_v2(prov) {
-    $.get("resources/provinciasypoblaciones.xml", function (xml) {
+    // $.get("resources/provinciasypoblaciones.xml", function (xml) {
+    $.get("../../resources/provinciasypoblaciones.xml", function (xml) {
       $("#city").empty();
   	  $("#city").append('<option value="" selected="selected">Select city</option>');
 
@@ -611,7 +622,8 @@ function load_cities_v2(prov) {
 function load_cities_v1(prov) { //provinciasypoblaciones.xml - xpath
     var datos = { idPoblac : prov  };
 	//$.post("modules/users/controller/controller_users.class.php", datos, function(response) {
-	$.post("index.php?module=users&function=load_cities_users", datos, function(response) {
+	// $.post("index.php?module=users&function=load_cities_users", datos, function(response) {
+  $.post("../../users/load_cities_users/", datos, function(response) {
 	    //alert(response);
         var json = JSON.parse(response);
 		var cities=json.cities;

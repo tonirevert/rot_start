@@ -1,6 +1,5 @@
 <?php
 //utilizar $_FILES['file'] no $_FILES['avatar'] por dropzone.js
-
 function upload_files() {
 
     $error = "";
@@ -29,20 +28,11 @@ function upload_files() {
         }
     }
 
-    ////////////////////////////////////////////////////////////////////////////
-    //if($_FILES['avatar']['error'] !== 0) { //Assignarem a l'us default-avatar
-        //$error .=  'Archivo no subido correctamente <br>';
-    //}
 
     ////////////////////////////////////////////////////////////////////////////
     if ($_FILES['file']['size'] > 55000 ){
         $error .=  "Large File Size <br>";
     }
-
-    ////////////////////////////////////////////////////////////////////////////
-    //if ($_FILES['avatar']['name'] === "") { //Assignarem a l'us default-avatar
-        //$error .= "No ha seleccionado ninguna imagen. Te proporcionamos un default-avatar<br>";
-    //}
 
     if ($_FILES['file']['name'] !== "") {
         ////////////////////////////////////////////////////////////////////////////
@@ -61,25 +51,15 @@ function upload_files() {
             $error .=   "Maximum width and height exceeded. Please upload images below 100x100 px size <br>";
         }
     }
-        /*
-            $image_size_info    = getimagesize($imagen); //get image size
-            if($image_size_info){
-                $image_width        = $image_size_info[0]; //image width
-                $image_height       = $image_size_info[1]; //image height
-                $image_type         = $image_size_info['mime']; //image type
-            }else{
-                die("Make sure image file is valid!");
-            }
-        */
 
     ////////////////////////////////////////////////////////////////////////////
-    $upfile = MEDIA_PATH.$_FILES['file']['name'];//Cambiado avatar por file
+    $upfile = MEDIA_PATH.$_FILES['avatar']['name'];//Cambiado avatar por file
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
             $idUnico = rand();
             $nombreFichero = $idUnico."-".$_FILES['file']['name'];
-            //$nombreFichero = $_FILES['file']['name'];
             $_SESSION['nombreFichero'] = $nombreFichero;
+            $_SESSION['idUnico'] = $idUnico."-";
             $copiarFichero = true;
             // I use absolute route to move_uploaded_file because this happens when i run ajax
             $upfile = MEDIA_PATH.$nombreFichero;
@@ -96,11 +76,11 @@ function upload_files() {
                 return $return=array('result'=>false,'error'=>$error,'data'=>"");
             }
             //We need edit $upfile because now i don't need absolute route.
-            $upfile = '/media/'.$nombreFichero;
+            $upfile = 'media/'.$nombreFichero;
             return $return=array('result'=>true , 'error'=>$error,'data'=>$upfile);
         }
         if($_FILES['file']['error'] !== 0) { //Assignarem a l'us default-avatar
-            $upfile = '/media/default-avatar.png';
+            $upfile = './media/default-avatar.png';
             return $return=array('result'=>true,'error'=>$error,'data'=>$upfile);
         }
     }else{
@@ -109,11 +89,9 @@ function upload_files() {
 }//End upload_files
 
 function remove_files(){
-	$name = $_SESSION['nombreFichero'];
-  //echo json_encode($name);
-  //exit;
-	if(file_exists(MEDIA_PATH.$name)){
-		unlink(MEDIA_PATH.$name);
+  $name = $_POST['filename'];
+	if(file_exists(MEDIA_PATH.$_SESSION['idUnico'].$name)){
+		unlink(MEDIA_PATH.$_SESSION['idUnico'].$name);
 		return true;
 	}else{
 		return false;

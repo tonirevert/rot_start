@@ -20,7 +20,7 @@
                         <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t1.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t1.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b1.png">VIEW PROJECT</a>
                                     </div>
@@ -32,7 +32,7 @@
                         <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t2.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t2.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b2.png">VIEW PROJECT</a>
                                     </div>
@@ -43,7 +43,7 @@
                         <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t3.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t3.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b3.png">VIEW PROJECT</a>
                                     </div>
@@ -54,7 +54,7 @@
                         <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t4.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t4.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b4.png">VIEW PROJECT</a>
                                     </div>
@@ -65,7 +65,7 @@
                         <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t5.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t5.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b5.png">VIEW PROJECT</a>
                                     </div>
@@ -76,7 +76,7 @@
                         <li class="portfolio-item ">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t6.png" alt="">
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t6.png" alt="">
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b6.png">VIEW PROJECT</a>
                                     </div>
@@ -87,7 +87,7 @@
                         <li class="portfolio-item ">
                            <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t7.png" alt="" />
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t7.png" alt="" />
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b7.png">VIEW PROJECT</a>
                                     </div>
@@ -98,7 +98,7 @@
                         <li class="portfolio-item ">
                            <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t8.png" alt="" />
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t8.png" alt="" />
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b8.png">VIEW PROJECT</a>
                                     </div>
@@ -109,7 +109,7 @@
                          <li class="portfolio-item">
                             <div class="item-main">
                                 <div class="portfolio-image">
-                                    <img src="view/img/portfolio/thumb/t9.png" alt="" />
+                                    <img src="<?php echo IMG_PATH ?>portfolio/thumb/t9.png" alt="" />
                                     <div class="overlay">
                                         <a class="preview btn btn-primary" title="Image Title Here" href="assets/img/portfolio/big/b9.png">VIEW PROJECT</a>
                                     </div>

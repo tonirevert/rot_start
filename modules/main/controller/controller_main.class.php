@@ -2,7 +2,7 @@
   class controller_main{
 
     public function __construct(){
-        
+
     }
 
     public function begin(){
@@ -11,7 +11,7 @@
 
         loadView('modules/main/view/', 'main.php');
 
-        require_once(VIEW_PATH_INC."footer.html");
+        require_once(VIEW_PATH_INC."footer.php");
     }
 
   }//End controller_main

@@ -1,4 +1,6 @@
 <?php
+
+
 class users_dao {
 
     static $_instance;
@@ -61,10 +63,12 @@ class users_dao {
     }//End obtain_countries_dao
 
     public function obtain_provinces_dao(){
-          $json = array();
+          // $json = array();
           $tmp = array();
 
-          $provincias = simplexml_load_file(RESOURCES.'provinciasypoblaciones.xml');
+          // $json = "Estoy en obtain provinces dao";
+
+          $provincias = simplexml_load_file(RESOURCES . "provinciasypoblaciones.xml");
           $result = $provincias->xpath("/lista/provincia/nombre | /lista/provincia/@id");
           for ($i=0; $i<count($result); $i+=2) {
             $e=$i+1;

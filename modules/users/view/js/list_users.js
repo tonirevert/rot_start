@@ -19,9 +19,30 @@ function load_users_get() {
     });
 }
 
+function load_users_post(){
+  var jqxhr = $.post("../../users/load_users/",{load:true}, function (data) {
+    //  alert(data);
+      var json = JSON.parse(data);
+      console.log(json);
+
+      pintar_user(json);
+      // alert( "success" );
+  }).done(function () {
+      // alert( "second success" );
+  }).fail(function () {
+      // alert( "error" );
+  }).always(function () {
+      //alert( "finished" );
+  });
+
+  jqxhr.always(function () {
+      //alert( "second finished" );
+  });
+}
+
 $(document).ready(function () {
-    console.log("document ready list users");
-    load_users_get();
+    // console.log("document ready list users");
+    load_users_post();
 });
 
 function pintar_user(data) {

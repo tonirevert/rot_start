@@ -1,29 +1,4 @@
 <?php
-    function loadView($rutaVista = '', $templateName = '', $arrPassValue = '') {
-
-        $view_path = $rutaVista . $templateName;
-    		$arrData = '';
-
-    		if (file_exists($view_path)) {
-    			   if (isset($arrPassValue)){
-                $arrData = $arrPassValue;
-             }
-    			  include_once($view_path);
-    		} else {
-
-    			$log = log::getInstance();
-    			$log->add_log_general("error loadView", $_GET['module'], "response ".http_response_code()); //$text, $controller, $function
-    			$log->add_log_user("error loadView", "", $_GET['module'], "response ".http_response_code()); //$msg, $username = "", $controller, $function
-
-    			// $result = response_code(http_response_code());
-
-          //  $arrData = $result;
-          require_once (VIEW_PATH_INC_ERROR.'error.php');
-
-    		}
-	  }
-
-    //idem loadmodel a loadview quant a fer un log i pintar template_error
     function loadModel($model_path, $model_name, $function, $arrArgument = '') {
 
         $model = $model_path . $model_name . '.class.singleton.php';
@@ -40,9 +15,41 @@
             $obj = $modelClass::getInstance();
 
             if (isset($arrArgument)) {
-                return $obj->$function($arrArgument);
+                return call_user_func(array($obj, $function),$arrArgument);//cambiar a array como en router
             }
         } else {
             throw new Exception();
         }
     }
+
+    function loadView($rutaVista = '', $templateName = '', $arrPassValue = '') {
+
+        $view_path = $rutaVista . $templateName;
+    		$arrData = '';
+
+    		if (file_exists($view_path)) {
+    			   if (isset($arrPassValue)){
+                $arrData = $arrPassValue;
+             }
+    			  include_once($view_path);
+    		} else {
+
+          //millora per a no utilitzar  ob_start() per evitar dublicació de headers
+        $error = filter_num_int($rutaVista);
+
+        if(isset($error['result'])){
+            $rutaVista = $error['data'];
+        }else{
+            $rutaVista = http_response_code();
+        }
+
+        $log = log::getInstance();
+        $log->add_log_general("error loadView general", $_GET['module'], "response " . $rutaVista); //$text, $controller, $function
+        $log->add_log_user("error loadView general", "", $_GET['module'], "response " . $rutaVista); //$msg, $username = "", $controller, $function
+
+        $result = response_code($rutaVista);
+        $arrData = $result;
+        require_once VIEW_PATH_INC_ERROR . "error.php";
+
+    		}
+	  }

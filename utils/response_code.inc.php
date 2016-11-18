@@ -1,5 +1,4 @@
 <?php
-require_once(UTILS."common.inc.php");
 function response_code($code = NULL) {
     if ($code !== NULL) {
         switch ($code) {
@@ -94,8 +93,8 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             die();
             break;
         case 1:
-            header($http, true, $num_http);
-            loadView();
+            //header($http, true, $num_http);
+            loadView($num_http);
             break;
         case 2:
             $log = log::getInstance();
@@ -104,19 +103,19 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
 
             $jsondata["error"] = $message;
             header($http, true, $num_http);
-            echo json_encode($jsondata);
+            echo "";
             exit;
             break;
         case 3:
             paint_template_search($message);
-            exit;
+            die();
             break;
 
         case 4:
             require_once(VIEW_PATH_INC . "header.php");
             require_once(VIEW_PATH_INC . "menu.php");
-            loadView($num_http);//pasar el 404
-            require_once(VIEW_PATH_INC . "footer.html");
+            loadView("400");
+            require_once(VIEW_PATH_INC . "footer.php");
             break;
     }
 }//End showErrorPage

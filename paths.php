@@ -1,43 +1,52 @@
 <?php
 //SITE_ROOT
-$path = $_SERVER['DOCUMENT_ROOT'].'/rot';
+$path = $_SERVER['DOCUMENT_ROOT'] . '/rot/';
 define('SITE_ROOT', $path);
 
 //SITE_PATH
-define('SITE_PATH', 'http://'.$_SERVER['HTTP_HOST'].'/rot');
+define('SITE_PATH', 'http://'.$_SERVER['HTTP_HOST'] . '/rot/');
 
 //CSS
-define('CSS_PATH', SITE_PATH . '/view/css/');
+define('CSS_PATH', SITE_PATH . 'view/css/');
+
+//JS
+define('JS_PATH', SITE_PATH . 'view/js/');
+
+//IMG
+define('IMG_PATH', SITE_PATH . 'view/img/');
 
 //LOG
-define('LOG_DIR', SITE_ROOT.'/classes/log.class.singleton.php');
-define('USER_LOG_DIR', SITE_ROOT . '/log/user/Site_User_errors.log');
-define('GENERAL_LOG_DIR', SITE_ROOT . '/log/general/Site_General_errors.log');
+define('LOG_DIR', SITE_ROOT.'classes/log.class.singleton.php');
+define('USER_LOG_DIR', SITE_ROOT . 'log/user/Site_User_errors.log');
+define('GENERAL_LOG_DIR', SITE_ROOT . 'log/general/Site_General_errors.log');
 
 //PRODUCTION
 define('PRODUCTION', true);
 
 //MODEL
-define('MODEL_PATH',SITE_ROOT.'/model/');
+define('MODEL_PATH',SITE_ROOT.'model/');
 //VIEW
-define('VIEW_PATH_INC',SITE_ROOT.'/view/inc/');
-define('VIEW_PATH_INC_ERROR',SITE_ROOT.'/view/inc/templates_error/');
+define('VIEW_PATH_INC',SITE_ROOT.'view/inc/');
+define('VIEW_PATH_INC_ERROR',SITE_ROOT.'view/inc/templates_error/');
 //MODULES
-define('MODULES_PATH',SITE_ROOT.'/modules/');
+define('MODULES_PATH',SITE_ROOT.'modules/');
 
 //RESOURCES
-define('RESOURCES',SITE_ROOT.'/resources/');
+define('RESOURCES',SITE_ROOT.'resources/');
 //MEDIA
-define('MEDIA_PATH',SITE_ROOT.'/media/');
+define('MEDIA_PATH',SITE_ROOT.'media/');
 //UTILS
-define('UTILS',SITE_ROOT.'/utils/');
+define('UTILS',SITE_ROOT.'utils/');
 
 //MODULE USERS
 
-define('FUNCTIONS_USERS', SITE_ROOT.'/modules/users/utils/');
-define('MODEL_PATH_USERS',SITE_ROOT.'/modules/users/model/');
-define('DAO_USERS',SITE_ROOT.'/modules/users/model/DAO/');
-define('BLL_USERS',SITE_ROOT.'/modules/users/model/BLL/');
-define('MODEL_USERS',SITE_ROOT.'/modules/users/model/model/');
-define('USERS_JS_PATH', SITE_PATH.'/modules/users/view/js/');
-define('USERS_CSS_PATH',SITE_PATH.'/modules/users/view/css/');
+define('FUNCTIONS_USERS', SITE_ROOT.'modules/users/utils/');
+define('MODEL_PATH_USERS',SITE_ROOT.'modules/users/model/');
+define('MODEL_USERS',SITE_ROOT.'modules/users/model/model/');
+define('BLL_USERS',SITE_ROOT.'modules/users/model/BLL/');
+define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
+define('USERS_JS_PATH', SITE_PATH.'modules/users/view/js/');
+define('USERS_CSS_PATH',SITE_PATH.'modules/users/view/css/');
+
+//URL AMIGABLES
+define('URL_AMIGABLES', TRUE);

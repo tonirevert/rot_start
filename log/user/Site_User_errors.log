@@ -105,3 +105,1330 @@ error loadView | 16.11.2016 23:41:37 | User:  | users | response 200
 error loadView | 16.11.2016 23:41:37 | User:  | users | response 200
 error loadView | 16.11.2016 23:45:07 | User:  | users | response 200
 error loadView | 16.11.2016 23:45:20 | User:  | users | response 200
+error loadView general | 17.11.2016 00:40:43 | User:  | view | response 200
+error loadView general | 17.11.2016 00:43:05 | User:  | view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:43:08 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:16 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:24 | User:  | view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:50 | User:  | <br /><b>Notice</b>:  Use of undefined constant URL_AMIGABLES - assumed 'URL_AMIGABLES' in <b>/var/www/html/rot/utils/utils.inc.php</b> on line <b>18</b><br />http:/localhost/rotmain/view | response 200
+error loadView general | 17.11.2016 00:44:59 | User:  | view | response 200
+error loadView general | 17.11.2016 00:48:44 | User:  | view | response 200
+error loadView general | 17.11.2016 00:50:46 | User:  | view | response 200
+error loadView general | 17.11.2016 00:51:03 | User:  | view | response 200
+error loadView general | 17.11.2016 00:54:00 | User:  | view | response 200
+error loadView general | 17.11.2016 00:57:12 | User:  | view | response 200
+error loadView general | 17.11.2016 01:08:25 | User:  | view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:28 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:08:34 | User:  | view | response 200
+error loadView general | 17.11.2016 01:09:40 | User:  | view | response 200
+error loadView general | 17.11.2016 01:11:08 | User:  | view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:12:22 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:13:33 | User:  | contact | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:37 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:40 | User:  | main | response 200
+error loadView general | 17.11.2016 01:14:40 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:40 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:14:42 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:35 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:36 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:38 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:39 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:43 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:18:57 | User:  | contact | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:19:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:27 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:45 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:21:47 | User:  | main | response 200
+error loadView general | 17.11.2016 01:21:50 | User:  | main | response 200
+error loadView general | 17.11.2016 01:21:54 | User:  | main | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:00 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:22:01 | User:  | main/view | response 200
+error loadView general | 17.11.2016 01:24:06 | User:  | main | response 200
+error loadView general | 17.11.2016 01:24:15 | User:  | main | response 200
+error loadView general | 17.11.2016 01:24:21 | User:  | main | response 200
+error loadView general | 17.11.2016 01:24:27 | User:  | main | response 200
+error loadView general | 17.11.2016 01:26:04 | User:  | main | response 200
+error loadView general | 17.11.2016 01:26:09 | User:  | main | response 200
+error loadView general | 17.11.2016 01:26:12 | User:  | main | response 200
+error loadView general | 17.11.2016 01:27:13 | User:  | main | response 200
+error loadView general | 17.11.2016 01:27:18 | User:  | main | response 200
+error loadView general | 17.11.2016 01:27:29 | User:  | main | response 200
+error loadView general | 17.11.2016 01:28:37 | User:  | users/form_users | response 200
+error loadView general | 17.11.2016 01:33:55 | User:  | users/users | response 200
+error loadView general | 17.11.2016 01:33:55 | User:  | users | response 200
+error loadView general | 17.11.2016 01:34:01 | User:  | users/users | response 200
+error loadView general | 17.11.2016 01:34:01 | User:  | users | response 200
+error loadView general | 17.11.2016 01:35:47 | User:  | main | response 200
+error loadView general | 17.11.2016 01:35:49 | User:  | users/users | response 200
+error loadView general | 17.11.2016 01:35:49 | User:  | users | response 200
+error loadView general | 17.11.2016 10:59:08 | User:  | users | response 200
+error loadView general | 17.11.2016 10:59:19 | User:  | users | response 200
+error loadView general | 17.11.2016 11:23:03 | User:  | users | response 200
+error loadView general | 17.11.2016 11:23:26 | User:  | users | response 200
+error loadView general | 17.11.2016 11:25:06 | User:  | users | response 200
+error loadView general | 17.11.2016 11:26:00 | User:  | users | response 200
+error loadView general | 17.11.2016 11:35:47 | User:  | users | response 200
+error loadView general | 17.11.2016 11:39:54 | User:  | users | response 200
+error loadView general | 17.11.2016 11:40:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:40:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:41:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:41:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:41:02 | User:  | users | response 200
+error loadView general | 17.11.2016 11:41:33 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:41:34 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:41:42 | User:  | users | response 200
+error loadView general | 17.11.2016 11:42:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:42:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:45:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:45:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:45:51 | User:  | users | response 200
+error loadView general | 17.11.2016 11:53:32 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:53:32 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:57:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:57:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:57:24 | User:  | users | response 200
+error loadView general | 17.11.2016 11:58:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:58:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:58:19 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:58:35 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:58:35 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:59:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 11:59:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:02:25 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:02:25 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:02:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:02:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:03:31 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:03:31 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:05:07 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:05:07 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:09:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:09:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:11:20 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:11:20 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:11:24 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:11:24 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:14:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:14:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:26:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:26:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:28:04 | User:  | users | response 200
+error loadView general | 17.11.2016 12:35:08 | User:  | users | response 200
+error loadView general | 17.11.2016 12:36:45 | User:  | users | response 200
+error loadView general | 17.11.2016 12:36:58 | User:  | users | response 200
+error loadView general | 17.11.2016 12:37:13 | User:  | users | response 200
+error loadView general | 17.11.2016 12:37:16 | User:  | users | response 200
+error loadView general | 17.11.2016 12:39:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:39:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:42:13 | User:  | users | response 200
+error loadView general | 17.11.2016 12:42:52 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:42:52 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:43:19 | User:  | users | response 200
+error loadView general | 17.11.2016 12:43:53 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:43:53 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:44:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:44:32 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:44:35 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:44:38 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:45:57 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:45:59 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:06 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:06 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:26 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:46:26 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:47:16 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:47:16 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:47:58 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:47:58 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:49:27 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:49:27 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:49:51 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:49:51 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:51:30 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:51:30 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:52:02 | User:  | main | response 200
+error loadView general | 17.11.2016 12:52:04 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:52:04 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:52:32 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:52:32 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:52:39 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:53:31 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:53:31 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:54:13 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:55:06 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:55:06 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:55:29 | User:  | users | response 200
+error loadView general | 17.11.2016 12:57:21 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:57:21 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:57:55 | User:  | users | response 200
+error loadView general | 17.11.2016 12:58:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:58:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:58:39 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:59:26 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:59:26 | User:  | users/users | response 200
+error loadView general | 17.11.2016 12:59:46 | User:  | users/form_users/users | response 200
+error loadView general | 17.11.2016 13:00:15 | User:  | users/users | response 200
+error loadView general | 17.11.2016 13:00:15 | User:  | users/users | response 200
+error loadView general | 17.11.2016 13:00:34 | User:  | users | response 200
+error loadView general | 17.11.2016 13:02:18 | User:  | users/users | response 200
+error loadView general | 17.11.2016 13:02:18 | User:  | users/users | response 200
+error loadView general | 17.11.2016 13:02:53 | User:  | users | response 200
+error loadView general | 17.11.2016 17:58:38 | User:  | users/users | response 200
+error loadView general | 17.11.2016 17:58:38 | User:  | users/users | response 200
+error loadView general | 17.11.2016 17:58:42 | User:  | users/users | response 200
+error loadView general | 17.11.2016 17:58:42 | User:  | users/users | response 200
+error loadView general | 17.11.2016 17:58:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 17:58:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:19 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:40:19 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:44:59 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:44:59 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:45:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:45:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:47:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:47:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:47:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:47:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:50:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:50:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:51:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:51:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:52:55 | User:  | users/users | response 200
+error loadView general | 17.11.2016 18:52:55 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:03:59 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:03:59 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:04:01 | User:  | users | response 200
+error loadView general | 17.11.2016 19:04:13 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:04:13 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:04:14 | User:  | users | response 200
+error loadView general | 17.11.2016 19:06:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:06:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:08:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:08:02 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:10:03 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:10:03 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:14:20 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:14:20 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:14:57 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:14:57 | User:  | users | response 200
+error loadView general | 17.11.2016 19:15:51 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:15:51 | User:  | users | response 200
+error loadView general | 17.11.2016 19:16:23 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:16:23 | User:  | users | response 200
+error loadView general | 17.11.2016 19:16:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:16:45 | User:  | users | response 200
+error loadView general | 17.11.2016 19:16:56 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:18:01 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:18:01 | User:  | users | response 200
+error loadView general | 17.11.2016 19:18:36 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:18:36 | User:  | users | response 200
+error loadView general | 17.11.2016 19:19:07 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:19:07 | User:  | users | response 200
+error loadView general | 17.11.2016 19:19:40 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:19:40 | User:  | users | response 200
+error loadView general | 17.11.2016 19:20:08 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:20:08 | User:  | users | response 200
+error loadView general | 17.11.2016 19:23:14 | User:  | users/users | response 200
+error loadView general | 17.11.2016 19:23:14 | User:  | users | response 200
+error loadView general | 17.11.2016 23:37:27 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:37:27 | User:  | users | response 200
+error loadView general | 17.11.2016 23:38:24 | User:  | users | response 200
+error loadView general | 17.11.2016 23:38:39 | User:  | users | response 200
+error loadView general | 17.11.2016 23:39:51 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:39:51 | User:  | users | response 200
+error loadView general | 17.11.2016 23:39:56 | User:  | users | response 200
+error loadView general | 17.11.2016 23:40:10 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:42:52 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:42:52 | User:  | users | response 200
+error loadView general | 17.11.2016 23:42:58 | User:  | users | response 200
+error loadView general | 17.11.2016 23:43:40 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:43:49 | User:  | users | response 200
+error loadView general | 17.11.2016 23:43:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:45:05 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:45:05 | User:  | users | response 200
+error loadView general | 17.11.2016 23:45:13 | User:  | users | response 200
+error loadView general | 17.11.2016 23:46:11 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:46:11 | User:  | users | response 200
+error loadView general | 17.11.2016 23:46:18 | User:  | users | response 200
+error loadView general | 17.11.2016 23:46:25 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:03 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:03 | User:  | users | response 200
+error loadView general | 17.11.2016 23:48:11 | User:  | users | response 200
+error loadView general | 17.11.2016 23:48:19 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:20 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:33 | User:  | users | response 200
+error loadView general | 17.11.2016 23:48:40 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:45 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:48:45 | User:  | users | response 200
+error loadView general | 17.11.2016 23:49:13 | User:  | users | response 200
+error loadView general | 17.11.2016 23:49:15 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:49:20 | User:  | users | response 200
+error loadView general | 17.11.2016 23:52:00 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:52:00 | User:  | users | response 200
+error loadView general | 17.11.2016 23:52:08 | User:  | users | response 200
+error loadView general | 17.11.2016 23:52:17 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:52:47 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:52:47 | User:  | users | response 200
+error loadView general | 17.11.2016 23:52:53 | User:  | users | response 200
+error loadView general | 17.11.2016 23:54:29 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:54:29 | User:  | users | response 200
+error loadView general | 17.11.2016 23:54:41 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:54:41 | User:  | users | response 200
+error loadView general | 17.11.2016 23:56:52 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:56:52 | User:  | users | response 200
+error loadView general | 17.11.2016 23:57:03 | User:  | users | response 200
+error loadView general | 17.11.2016 23:57:54 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:57:54 | User:  | users | response 200
+error loadView general | 17.11.2016 23:58:33 | User:  | users/users | response 200
+error loadView general | 17.11.2016 23:58:33 | User:  | users | response 200
+error loadView general | 17.11.2016 23:58:38 | User:  | users | response 200
+error loadView general | 17.11.2016 23:58:43 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:02:30 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:02:30 | User:  | users | response 200
+error loadView general | 18.11.2016 00:02:34 | User:  | users | response 200
+error loadView general | 18.11.2016 00:02:38 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:02:58 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:02:58 | User:  | users | response 200
+error loadView general | 18.11.2016 00:03:04 | User:  | users | response 200
+error loadView general | 18.11.2016 00:03:06 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:03:34 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:03:34 | User:  | users | response 200
+error loadView general | 18.11.2016 00:04:15 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:04:15 | User:  | users | response 200
+error loadView general | 18.11.2016 00:04:51 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:04:51 | User:  | users | response 200
+error loadView general | 18.11.2016 00:05:35 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:05:35 | User:  | users | response 200
+error loadView general | 18.11.2016 00:06:44 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:06:44 | User:  | users | response 200
+error loadView general | 18.11.2016 00:08:52 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:08:52 | User:  | users | response 200
+error loadView general | 18.11.2016 00:09:38 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:09:38 | User:  | users | response 200
+error loadView general | 18.11.2016 00:09:50 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:10:45 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:10:45 | User:  | users | response 200
+error loadView general | 18.11.2016 00:11:32 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:11:32 | User:  | users | response 200
+error loadView general | 18.11.2016 00:16:51 | User:  | users/users | response 200
+error loadView general | 18.11.2016 00:16:51 | User:  | users | response 200
+error loadView general | 18.11.2016 00:21:27 | User:  | users | response 200
+error loadView general | 18.11.2016 00:23:33 | User:  | users | response 200
+error loadView general | 18.11.2016 00:24:18 | User:  | users | response 200
+error loadView general | 18.11.2016 00:26:29 | User:  | users | response 200
+error loadView general | 18.11.2016 00:26:52 | User:  | users | response 200
+error loadView general | 18.11.2016 00:35:53 | User:  | users | response 400
+error loadView general | 18.11.2016 00:38:20 | User:  | users | response 400
+error loadView general | 18.11.2016 00:40:30 | User:  | users | response 400
+error loadView general | 18.11.2016 00:44:57 | User:  | users | response 400
+error loadView general | 18.11.2016 00:45:20 | User:  | users | response 400
+error loadView general | 18.11.2016 00:45:43 | User:  | users | response 400
+error loadView general | 18.11.2016 00:45:52 | User:  | users | response 400
+error loadView general | 18.11.2016 00:47:31 | User:  | users | response 400
+error loadView general | 18.11.2016 00:48:24 | User:  | users | response 400
+error loadView general | 18.11.2016 00:50:37 | User:  | users | response 400
+error loadView general | 18.11.2016 00:51:19 | User:  | users | response 400
+error loadView general | 18.11.2016 00:52:48 | User:  | users | response 400
+error loadView general | 18.11.2016 00:53:12 | User:  | users | response 400
+error loadView general | 18.11.2016 00:53:47 | User:  | error | response 400
+error loadView general | 18.11.2016 00:54:01 | User:  | users | response 400
+error loadView general | 18.11.2016 00:57:23 | User:  | users | response 400
+error loadView general | 18.11.2016 00:57:55 | User:  | users/users | response 400
+error loadView general | 18.11.2016 00:59:11 | User:  | users | response 400
+error loadView general | 18.11.2016 01:05:27 | User:  | users | response 400
+error loadView general | 18.11.2016 01:11:20 | User:  | users | response 400
+error loadView general | 18.11.2016 01:12:13 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:13:25 | User:  | users | response 400
+error loadView general | 18.11.2016 01:13:56 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:14:32 | User:  | users | response 400
+error loadView general | 18.11.2016 01:15:01 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:16:25 | User:  | users | response 400
+error loadView general | 18.11.2016 01:16:57 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:17:29 | User:  | users | response 400
+error loadView general | 18.11.2016 01:17:53 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:18:16 | User:  | users | response 400
+error loadView general | 18.11.2016 01:18:50 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:20:15 | User:  | users | response 400
+error loadView general | 18.11.2016 01:20:42 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:22:35 | User:  | users | response 400
+error loadView general | 18.11.2016 01:22:59 | User:  | users/users | response 400
+error loadView general | 18.11.2016 01:30:47 | User:  | users | response 400
+error loadView general | 18.11.2016 01:30:49 | User:  | users | response 400
+error loadView general | 18.11.2016 01:30:57 | User:  | users | response 400
+error loadView general | 18.11.2016 01:32:18 | User:  | users | response 400
+error loadView general | 18.11.2016 01:32:43 | User:  | error | response 400
+error loadView general | 18.11.2016 01:32:49 | User:  | users | response 400
+error loadView general | 18.11.2016 01:36:09 | User:  | users | response 400
+error loadView general | 18.11.2016 01:37:07 | User:  | users | response 400
+error loadView general | 18.11.2016 01:41:07 | User:  | users | response 400
+error loadView general | 18.11.2016 01:46:09 | User:  | users | response 400
+error loadView general | 18.11.2016 01:59:13 | User:  | users | response 400
+error loadView general | 18.11.2016 01:59:38 | User:  | error | response 400
+error loadView general | 18.11.2016 01:59:45 | User:  | users | response 400
+error loadView general | 18.11.2016 02:06:59 | User:  | users | response 400
+error loadView general | 18.11.2016 02:10:25 | User:  | users | response 400
+error loadView general | 18.11.2016 02:13:50 | User:  | users | response 400
+error loadView general | 18.11.2016 10:59:38 | User:  | users | response 400
+error loadView general | 18.11.2016 11:05:58 | User:  | users | response 400
+error loadView general | 18.11.2016 11:10:31 | User:  | users | response 400
+error loadView general | 18.11.2016 11:11:19 | User:  | users | response 400
+error loadView general | 18.11.2016 11:23:35 | User:  | users | response 400
+error loadView general | 18.11.2016 11:24:58 | User:  | users | response 400
+error loadView general | 18.11.2016 11:28:01 | User:  | users | response 400
+error loadView general | 18.11.2016 11:28:47 | User:  | users | response 400
+error loadView general | 18.11.2016 11:31:07 | User:  | users | response 400
+error loadView general | 18.11.2016 11:32:32 | User:  | users | response 400
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:32:38 | User:  | users | response 200
+error loadView general | 18.11.2016 11:35:11 | User:  | users | response 400
+error loadView general | 18.11.2016 11:41:15 | User:  | users | response 400
+error loadView general | 18.11.2016 11:47:59 | User:  | users | response 400
+error loadView general | 18.11.2016 11:50:35 | User:  | users | response 404
+error loadView general | 18.11.2016 11:50:44 | User:  | users | response 400
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 11:51:13 | User:  | users | response 200
+error loadView general | 18.11.2016 11:59:18 | User:  | users | response 400
+error loadView general | 18.11.2016 12:00:42 | User:  | users | response 400
+error loadView general | 18.11.2016 12:02:57 | User:  | users | response 400
+error loadView general | 18.11.2016 12:03:44 | User:  | users | response 400
+error loadView general | 18.11.2016 12:05:19 | User:  | users | response 400
+error loadView general | 18.11.2016 12:06:06 | User:  | users | response 400
+error loadView general | 18.11.2016 12:08:21 | User:  | users | response 400
+error loadView general | 18.11.2016 12:09:35 | User:  | users | response 400
+error loadView general | 18.11.2016 12:16:36 | User:  | users | response 400
+error loadView general | 18.11.2016 12:17:15 | User:  | users | response 400
+error loadView general | 18.11.2016 12:20:48 | User:  | users | response 400
+error loadView general | 18.11.2016 12:24:47 | User:  | users | response 400
+error loadView general | 18.11.2016 12:25:56 | User:  | users | response 400
+error loadView general | 18.11.2016 12:28:01 | User:  | users | response 400
+error loadView general | 18.11.2016 12:29:27 | User:  | users | response 400
+error loadView general | 18.11.2016 12:29:48 | User:  | users | response 400
+error loadView general | 18.11.2016 12:30:05 | User:  | users | response 400
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:39:18 | User:  | users | response 200
+error loadView general | 18.11.2016 12:39:35 | User:  | error | response 400
+error loadView general | 18.11.2016 12:39:44 | User:  | users | response 400
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:40:02 | User:  | users | response 200
+error loadView general | 18.11.2016 12:41:59 | User:  | users | response 400
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+ERROR: [2] array_push() expects parameter 1 to be array, null given
+Warning on line 80 in file /var/www/html/rot/modules/users/model/DAO/users_dao.class.singleton.php
+ | 18.11.2016 12:42:33 | User:  | users | response 200
+error loadView general | 18.11.2016 12:43:21 | User:  | users | response 404

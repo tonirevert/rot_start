@@ -10,8 +10,18 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php?module=main">HOME</a></li>
-                <li><a href="index.php?module=users&function=form_users">USERS</a></li>
+              <li class="
+                      <?php if(isset($_GET['module']) === 'main')
+                               echo'active';
+                            else
+                               echo 'deactivate';
+                      ?>"><a href="<?php amigable('?module=main'); ?>">HOME</a></li>
+                <li class="
+                        <?php if(isset($_GET['module']) === 'main')
+                                 echo'active';
+                              else
+                                 echo 'deactivate';
+                        ?>"><a href="<?php amigable('?module=users&function=form_users'); ?>">USERS</a></li>
                 <li><a href="index.php?module=portfolio">PORTFOLIO</a></li>
                 <li><a href="index.php?module=pricing">PRICING</a></li>
                 <li><a href="index.php?module=contact">CONTACT</a></li>
@@ -37,7 +47,7 @@
 
 
             </div>
-             <h2 class="BackHome"><a href="index.php">Back Home</a></h2>
+             <h2 class="BackHome"><a href="<?php amigable('?module=main'); ?>">Back Home</a></h2>
         </div>
     </div>
 </section>

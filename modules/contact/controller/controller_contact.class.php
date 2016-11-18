@@ -2,9 +2,7 @@
   class controller_contact{
 
     public function __construct() {
-      //include(UTILS. "common.inc.php");
       include LOG_DIR;
-      //include(UTILS. "response_code.inc.php");
     }
 
     public function begin(){
@@ -13,7 +11,7 @@
 
         loadView('modules/contact/view/', 'contact.php');
 
-        require_once(VIEW_PATH_INC."footer.html");
+        require_once(VIEW_PATH_INC."footer.php");
     }
 
   }//End controller_main
