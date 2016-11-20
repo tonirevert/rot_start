@@ -6,6 +6,12 @@ define('SITE_ROOT', $path);
 //SITE_PATH
 define('SITE_PATH', 'http://'.$_SERVER['HTTP_HOST'] . '/rot/');
 
+//PRODUCTION
+define('PRODUCTION', true);
+
+//URL AMIGABLES
+define('URL_AMIGABLES', TRUE);
+
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');
 
@@ -19,9 +25,6 @@ define('IMG_PATH', SITE_PATH . 'view/img/');
 define('LOG_DIR', SITE_ROOT.'classes/log.class.singleton.php');
 define('USER_LOG_DIR', SITE_ROOT . 'log/user/Site_User_errors.log');
 define('GENERAL_LOG_DIR', SITE_ROOT . 'log/general/Site_General_errors.log');
-
-//PRODUCTION
-define('PRODUCTION', true);
 
 //MODEL
 define('MODEL_PATH',SITE_ROOT.'model/');
@@ -39,7 +42,6 @@ define('MEDIA_PATH',SITE_ROOT.'media/');
 define('UTILS',SITE_ROOT.'utils/');
 
 //MODULE USERS
-
 define('FUNCTIONS_USERS', SITE_ROOT.'modules/users/utils/');
 define('MODEL_PATH_USERS',SITE_ROOT.'modules/users/model/');
 define('MODEL_USERS',SITE_ROOT.'modules/users/model/model/');
@@ -48,5 +50,9 @@ define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
 define('USERS_JS_PATH', SITE_PATH.'modules/users/view/js/');
 define('USERS_CSS_PATH',SITE_PATH.'modules/users/view/css/');
 
-//URL AMIGABLES
-define('URL_AMIGABLES', TRUE);
+//MODULE CONTACT
+define('CONTACT_JS_PATH', SITE_PATH . 'modules/contact/view/js/');
+define('CONTACT_CSS_PATH', SITE_PATH . 'modules/contact/view/css/');
+define('CONTACT_LIB_PATH', SITE_PATH . 'modules/contact/view/lib/');
+define('CONTACT_IMG_PATH', SITE_PATH . 'modules/contact/view/img/');
+define('CONTACT_VIEW_PATH', 'modules/contact/view/');

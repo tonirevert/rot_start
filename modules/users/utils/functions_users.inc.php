@@ -12,17 +12,19 @@ function validate_user($value){
 
     'name' => array(
       'filter'=>FILTER_VALIDATE_REGEXP,
-      'options'=>array('regexp'=>'/^\D{3,30}$/')
+      // 'options'=>array('regexp'=>'/^\D{3,30}$/')
+      'options'=>array('regexp'=>'/[a-zA-ZÀ-ÖØ-öø-ÿ]+\.?(( |\-)[a-zA-ZÀ-ÖØ-öø-ÿ]+\.?)*/')
     ),
 
     'surnames' => array(
       'filter'=>FILTER_VALIDATE_REGEXP,
-      'options'=>array('regexp'=>'/^[a-zA-Z0-9]*$/')
+      // 'options'=>array('regexp'=>'/^[a-zA-Z0-9]*$/')
+      'options'=>array('regexp'=>'/^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/')
     ),
 
     'mobile' => array(
       'filter'=>FILTER_VALIDATE_REGEXP,
-      'options'=>array('regexp'=>'/^[+]34\d{9}$/')
+      'options'=>array('regexp'=>'/^[9|6|7][0-9]{8}$/')
     ),
 
     'email' => array(

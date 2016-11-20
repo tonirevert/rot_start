@@ -6,7 +6,7 @@
   include(UTILS . "utils.inc.php");
   include(UTILS . "response_code.inc.php");
   include(UTILS . "common.inc.php");
-  
+  include(UTILS . "mail.inc.php");
 
 
   if(PRODUCTION){

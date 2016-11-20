@@ -8,7 +8,8 @@ function validate_dni(dni) {
 
 function validate_name(name) {
     if (name.length > 0) {
-        var regexp = /^[a-zA-Z0-9]*$/;
+        // var regexp = /^[a-zA-Z0-9]*$/;
+        var regexp = /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/;
         return regexp.test(name);
     }
     return false;
@@ -16,7 +17,8 @@ function validate_name(name) {
 
 function validate_surnames(surnames) {
     if (surnames.length > 0) {
-        var regexp = /^[a-zA-Z0-9]*$/;
+        // var regexp = /^[a-zA-Z0-9]*$/;
+        var regexp = /^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]+[\s]*)+$/;
         return regexp.test(surnames);
     }
     return false;
@@ -24,7 +26,7 @@ function validate_surnames(surnames) {
 
 function validate_mobile(mobile){
     if (mobile.length > 0){
-        var regexp = /^[+]34\d{9}$/;
+        var regexp = /^[9|6|7][0-9]{8}$/;
         return regexp.test(mobile);
     }
     return false;
@@ -40,7 +42,7 @@ function validate_email(email) {
 
 function validate_password(password) {
     if (password.length > 0) {
-        var regexp = /^[a-zA-Z0-9]*$/;
+        var regexp = /^[a-zA-Z0-9]{6,12}$/;
         return regexp.test(password);
     }
     return false;
@@ -178,7 +180,7 @@ function validate_user() {
   }
 
   if (!v_mobile) {
-        document.getElementById('error_mobile').innerHTML = "Invalid mobile number must be +34xxxxxxxxx";
+        document.getElementById('error_mobile').innerHTML = "Invalid mobile number must start with 6/7/9";
         result = false;
     } else {
         document.getElementById('error_mobile').innerHTML = "";
@@ -192,7 +194,7 @@ function validate_user() {
   }
 
 	if (!v_password) {
-        document.getElementById('error_password').innerHTML = "Invalid password";
+        document.getElementById('error_password').innerHTML = "Password must have 6 chars/numbers";
         result = false;
     } else {
         document.getElementById('error_password').innerHTML = "";

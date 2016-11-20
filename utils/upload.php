@@ -53,7 +53,7 @@ function upload_files() {
     }
 
     ////////////////////////////////////////////////////////////////////////////
-    $upfile = MEDIA_PATH.$_FILES['avatar']['name'];//Cambiado avatar por file
+    $upfile = MEDIA_PATH.$_FILES['file']['name'];//Cambiado avatar por file
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
             $idUnico = rand();

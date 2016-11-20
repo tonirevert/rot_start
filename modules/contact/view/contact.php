@@ -1,20 +1,48 @@
-<section id="home" class="head-main-img">
+<br><br>
 
-               <div class="container">
-           <div class="row text-center pad-row" >
-            <div class="col-md-12">
-              <h1>  OUR CONTACT DETAILS  </h1>
-                </div>
-               </div>
-            </div>
+<script src="<?php echo CONTACT_LIB_PATH; ?>bootstrap-button.js"></script>
+<script src="<?php echo CONTACT_LIB_PATH; ?>jquery.validate.min.js"></script>
+<script src="<?php echo CONTACT_LIB_PATH; ?>jquery.validate.extended.js"></script>
+<script src="<?php echo CONTACT_JS_PATH; ?>contact.js"></script>
 
-       </section>
-    <!--/.HEADING END-->
+<link href="<?php echo CONTACT_CSS_PATH; ?>bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo CONTACT_CSS_PATH; ?>custom.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 
-<section  id="contact-sec">
-       <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.9865585904113!2d-0.6068091841623762!3d38.80986127958428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6178064764c1b5%3A0x9f954e630d0d8e02!2sIES+l&#39;Estaci%C3%B3!5e0!3m2!1ses!2ses!4v1473849710980"></iframe>
-  <div class="add">
- <i>Address: </i>IES l'Estació, Polígono Urbano Nº 2, 46870 Ontinyent (Valencia)
-   </div>
-    <hr/>
-</section>
+
+<div class="container">
+    <form id="contact_form" name="contact_form" class="form-contact">
+        <h2 class="form-contact-heading">Contact Us</h2>
+
+        <div class="control-group">
+            <input type="text" id="inputName" name="inputName" placeholder="Name" class="input-block-level" dir="auto" maxlength="100">
+        </div>
+        <div class="control-group">
+            <input type="text" id="inputEmail" name="inputEmail" placeholder="Email *" class="input-block-level" maxlength="100">
+        </div>
+        <div class="control-group">
+            <label for="sel1">Subject</label>
+            <select class="form-control" id="inputSubject" name="inputSubject" title="Choose subject">
+                <option value="order">Something relative with an order</option>
+                <option value="programacion">Contacta con nuestro dpto de programacion</option>
+                <option value="work">Work with us</option>
+                <option value="projects">Propose new projects</option>
+                <option value="suggestions">Suggestions</option>
+                <option value="claim">Want to claim something</option>
+                <option value="suscribe">Suscribe to our mail-list</option>
+                <option value="diferente">Something different</option>
+            </select>
+        </div>
+        <div class="control-group">
+              <textarea class="input-block-level" rows="4" name="inputMessage" placeholder="Message *" style="max-width: 100%;" dir="auto"></textarea>
+        </div>
+
+        <input type="hidden" name="token" value="contact_form" />
+
+        <input class="btn btn-primary" type="submit" name="submit" id="submitBtn" disabled="disabled" value="send" />
+
+        <img src="<?php echo CONTACT_IMG_PATH; ?>ajax-loader.gif" alt="ajax loader icon" class="ajaxLoader" /><br/><br/>
+
+        <div id="resultMessage" style="display: none;"></div>
+    </form>
+</div> <!-- /container -->

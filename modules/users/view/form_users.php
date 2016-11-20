@@ -41,7 +41,7 @@
       </p>
       <p>
         <label for="date_birthday">Birth date:</label>
-        <input type="text" name="date_birthday" id="date_birthday" placeholder="Birthday" readonly="readonly"/>
+        <input type="text" name="date_birthday" id="date_birthday" placeholder="Birthday"/>
         <span id="error_date_birthday" class="styerror"></span>
       </p>
       <p>
