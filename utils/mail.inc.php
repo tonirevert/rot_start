@@ -20,9 +20,9 @@
                 break;
 
             case 'contact':
-                $subject = 'Tu Petici&oacute;n a Rural_Shop ha sido enviada<br>';
-                $ruta = '<a href=' . 'https://examples-php-yomogan.c9.io/13B%20framework_contact/'. '>aqu&iacute;</a>';
-                $body = 'Para visitar nuestra web, pulsa ' . $ruta;
+                $subject = 'User registration sent<br>';
+                $ruta = '<a href=' . 'https://arevert.tk/repair_on_time'. '>here</a>';
+                $body = 'To visit our web, click ' . $ruta;
                 break;
 
             case 'admin':
@@ -36,12 +36,12 @@
 
         $html .= "<html>";
         $html .= "<body>";
-	       $html .= "<h4>". $subject ."</h4>";
-	       $html .= $body;
-	       $html .= "<br><br>";
-	       $html .= "<p>Sent by Repair on Time</p>";
-		$html .= "</body>";
-		$html .= "</html>";
+	      $html .= "<h4>". $subject ."</h4>";
+	      $html .= $body;
+	      $html .= "<br><br>";
+	      $html .= "<p>Sent by Repair on Time</p>";
+		    $html .= "</body>";
+		    $html .= "</html>";
 
         set_error_handler('ErrorHandler');
         try{

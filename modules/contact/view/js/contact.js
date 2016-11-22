@@ -1,19 +1,19 @@
 function paint(dataString) {
     $("#resultMessage").html(dataString).fadeIn("slow");
-                    
+
     setTimeout(function() {
         $("#resultMessage").fadeOut("slow")
     }, 5000);
-                            
+
     //reset the form
     $('#contact_form')[0].reset();
-                            
+
     // hide ajax loader icon
     $('.ajaxLoader').fadeOut("fast");
-                            
+
     // Enable button after processing
     $('#submitBtn').attr('disabled', false);
-                    
+
     /*if (dataString == "<div class='alert alert-success'>Your message has been sent </div>"){
         alert(dataString);
     }else{
@@ -22,11 +22,12 @@ function paint(dataString) {
 }
 
 $(document).ready(function(){
+  console.log("ready contact");
     // disable submit button in case of disabled javascript browsers
     $(function(){
         $('#submitBtn').attr('disabled', false);
     });
-            
+
 	$("#contact_form").validate({
 				rules:{
 					inputName:{
@@ -48,10 +49,10 @@ $(document).ready(function(){
         },
         errorClass: "help-inline"
 	});
-	
+
     $("#contact_form").submit(function(){
         if ($("#contact_form").valid()){
-            
+
             // Disable button while processing
             $('#submitBtn').attr('disabled', true);
 
@@ -61,7 +62,8 @@ $(document).ready(function(){
             var dataString = $("#contact_form").serialize();
             $.ajax({
                 type: "POST",
-                url: "index.php?module=contact&function=process_contact",
+                url: "../../contact/process_contact/",
+                // url: "index.php?module=contact&function=process_contact",
                 data: dataString,
                 success: function(dataString) {
                     paint(dataString);

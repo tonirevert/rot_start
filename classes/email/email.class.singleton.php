@@ -26,22 +26,22 @@
                 $this->mail->Password = $cnfg['pass'];
                 $this->mail->AddReplyTo($cnfg['email'], $cnfg['defaultsubject']);
                 $this->mail->SetFrom($cnfg['email'], $cnfg['defaultsubject']);
-                $this->mail->addAttachment(IMG_RURAL_SHOP);
+                $this->mail->addAttachment(IMG_LOGO);
 
-                $this->subject="RURAL_SHOP";
+                $this->subject="Repair_on_Time";
 
             } catch (phpmailerException $e) {
                 //echo $e->errorMessage();
                 $log = log::getInstance();
-			    $log->add_log_general("error construct email.class.singleton.php", $_GET['module'], "response ".http_response_code());
-			    $log->add_log_user("error construct email.class.singleton.php", "", $_GET['module'], "response ".http_response_code());
+			          $log->add_log_general("error construct email.class.singleton.php", $_GET['module'], "response ".http_response_code());
+			          $log->add_log_user("error construct email.class.singleton.php", "", $_GET['module'], "response ".http_response_code());
 
                 throw new Exception();
             } catch (Exception $e) {
                 //echo $e->getMessage();
                 $log = log::getInstance();
-			    $log->add_log_general("error construct email.class.singleton.php", $_GET['module'], "response ".http_response_code());
-			    $log->add_log_user("error construct email.class.singleton.php", "", $_GET['module'], "response ".http_response_code());
+			          $log->add_log_general("error construct email.class.singleton.php", $_GET['module'], "response ".http_response_code());
+			          $log->add_log_user("error construct email.class.singleton.php", "", $_GET['module'], "response ".http_response_code());
 
                 throw new Exception();
             }

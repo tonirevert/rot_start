@@ -21,6 +21,9 @@ define('JS_PATH', SITE_PATH . 'view/js/');
 //IMG
 define('IMG_PATH', SITE_PATH . 'view/img/');
 
+//VIEW MEDIA
+define('VIEW_MEDIA', SITE_PATH . '/view/media/');
+
 //LOG
 define('LOG_DIR', SITE_ROOT.'classes/log.class.singleton.php');
 define('USER_LOG_DIR', SITE_ROOT . 'log/user/Site_User_errors.log');
@@ -31,6 +34,9 @@ define('MODEL_PATH',SITE_ROOT.'model/');
 //VIEW
 define('VIEW_PATH_INC',SITE_ROOT.'view/inc/');
 define('VIEW_PATH_INC_ERROR',SITE_ROOT.'view/inc/templates_error/');
+//IMG LOGO
+define('IMG_LOGO',SITE_ROOT.'view/img/logo_rot.png');
+
 //MODULES
 define('MODULES_PATH',SITE_ROOT.'modules/');
 

@@ -7,16 +7,17 @@
     }
 
     public function view_contact(){
-        require_once(VIEW_PATH_INC. "/header.php");
-        require_once(VIEW_PATH_INC. "/menu.php");
+        require_once(VIEW_PATH_INC. "header.php");
+        require_once(VIEW_PATH_INC. "menu.php");
         loadView(CONTACT_VIEW_PATH, 'contact.php');
         require_once(VIEW_PATH_INC."footer.php");
     }
 
 
     public function process_contact(){
-      if($_POST['token'] === "contact_form"){
 
+      if($_POST['token'] === "contact_form"){
+        // echo $_POST['inputMessage'];
         /////Email send to the user
         $arrArgument = array(
             'type' => 'contact',
@@ -54,5 +55,5 @@
       }else{
         echo "<div class='alert alert-error'>Server error. Try later...</div>";
       }
-    }
+    }//End process contact
   }//End controller_main
