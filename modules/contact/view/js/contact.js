@@ -22,7 +22,6 @@ function paint(dataString) {
 }
 
 $(document).ready(function(){
-  console.log("ready contact");
     // disable submit button in case of disabled javascript browsers
     $(function(){
         $('#submitBtn').attr('disabled', false);

@@ -20,8 +20,8 @@
                 break;
 
             case 'contact':
-                $subject = 'User registration sent<br>';
-                $ruta = '<a href=' . 'https://arevert.tk/repair_on_time'. '>here</a>';
+                $subject = 'Your question has been sent<br>';
+                $ruta = '<a href=' . 'http://arevert.tk/repair_on_time'. '>here</a>';
                 $body = 'To visit our web, click ' . $ruta;
                 break;
 

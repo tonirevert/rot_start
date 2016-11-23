@@ -68,7 +68,8 @@
                 $this->mail->AddAddress($this->address, $this->name);
                 $this->mail->IsHTML(true);
 
-                $result = $this->send_mailgun($this->address);
+                // $result = $this->send_mailgun($this->address);
+                $result = $this->send_mailgun($this->address, $this->subject, $this->body);
                 return $result;
                 /*
                 if($this->mail->Send()){
@@ -92,7 +93,34 @@
             }
         }
 
-        public function send_mailgun($email){
+        public function send_mailgun($email, $subject, $body){
+        	$config = array();
+        	$config['api_key'] = "key-5edfddbdd35941e814cfd5f124ab5a15"; //API Key
+        	$config['api_url'] = "https://api.mailgun.net/v3/sandboxcc88ee92feee4e8898450f7765526aae.mailgun.org/messages"; //API Base URL
+
+        	$message = array();
+        	$message['from'] = "enterpriserot@gmail.com";
+        	$message['to'] = $email;
+        	$message['h:Reply-To'] = "enterpriserot@gmail.com";
+        	$message['subject'] = $subject;
+        	$message['html'] = $body;
+
+        	$ch = curl_init();
+        	curl_setopt($ch, CURLOPT_URL, $config['api_url']);
+        	curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+        	curl_setopt($ch, CURLOPT_USERPWD, "api:{$config['api_key']}");
+        	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+        	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        	curl_setopt($ch, CURLOPT_POST, true);
+        	curl_setopt($ch, CURLOPT_POSTFIELDS,$message);
+        	$result = curl_exec($ch);
+        	curl_close($ch);
+        	return $result;
+        }
+
+        public function send_mailgun_old($email){
         	$config = array();
         	$config['api_key'] = "key-5edfddbdd35941e814cfd5f124ab5a15"; //API Key
         	$config['api_url'] = "https://api.mailgun.net/v3/sandboxcc88ee92feee4e8898450f7765526aae.mailgun.org/messages"; //API Base URL
