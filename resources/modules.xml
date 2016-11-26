@@ -9,8 +9,8 @@
         <uri>users</uri>
     </module>
     <module>
-        <name>products</name>
-        <uri>products</uri>
+        <name>technicians</name>
+        <uri>technicians</uri>
     </module>
     <module>
         <name>contact</name>

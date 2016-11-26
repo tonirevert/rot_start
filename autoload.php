@@ -16,7 +16,7 @@
     //we need have this because if not exist $porciones[1], app will have problems when we sent error (showErrorPage(2..)).
     if(isset($porciones[1])){
         $model_name = $porciones[1];
-        $model_name = strtoupper($model_name);
+        $model_name = strtoupper($model_name);//The directory must has with uppercase
     }
 
         //users && products
@@ -30,8 +30,8 @@
             spl_autoload($className);
         }
         //log
-        elseif (file_exists('classes/' . $className . '.class.singleton.php')) {//require(MODEL_PATH . "db.class.singleton.php");
-            set_include_path('classes/');
+        elseif (file_exists('classes/log/' . $className . '.class.singleton.php')) {//require(MODEL_PATH . "db.class.singleton.php");
+            set_include_path('classes/log/');
             spl_autoload($className);
         //class email
         }elseif( file_exists('classes/email/'.$className.'.class.singleton.php' ) ){//require(EMAIL . 'email.class.singleton.php');

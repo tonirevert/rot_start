@@ -25,7 +25,13 @@
   	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
   	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
+
+
+    <!---////////////////////////////   NOVES LINIES MAP //////////////////////////////////////////-->
+    <script type="text/javascript" src="<?php echo JS_PATH ?>cookies.js"></script>
+    <script type="text/javascript" src="<?php echo JS_PATH ?>main.js"></script>
+    <link href="<?php echo TECHNICIANS_CSS_PATH ?>main.css" rel="stylesheet">
+
 
 
 </head>

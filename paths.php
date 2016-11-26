@@ -37,6 +37,9 @@ define('VIEW_PATH_INC_ERROR',SITE_ROOT.'view/inc/templates_error/');
 //IMG LOGO
 define('IMG_LOGO',SITE_ROOT.'view/img/logo_rot.png');
 
+//LIBS
+define('LIBS',SITE_ROOT . 'libs/');
+
 //MODULES
 define('MODULES_PATH',SITE_ROOT.'modules/');
 
@@ -55,6 +58,13 @@ define('BLL_USERS',SITE_ROOT.'modules/users/model/BLL/');
 define('DAO_USERS',SITE_ROOT.'modules/users/model/DAO/');
 define('USERS_JS_PATH', SITE_PATH.'modules/users/view/js/');
 define('USERS_CSS_PATH',SITE_PATH.'modules/users/view/css/');
+
+//MODULE TECHNICIANS
+define('TECHNICIANS_JS_PATH',SITE_PATH. 'modules/technicians/view/js/');
+define('TECHNICIANS_CSS_PATH', SITE_PATH . '/modules/technicians/view/css/');
+define('BLL_TECHNICIANS',SITE_ROOT.'modules/technicians/model/bll/');
+define('DAO_TECHNICIANS',SITE_ROOT.'modules/technicians/model/dao/');
+define('MODEL_TECHNICIANS', SITE_ROOT . '/modules/technicians/model/model/');
 
 //MODULE CONTACT
 define('CONTACT_JS_PATH', SITE_PATH . 'modules/contact/view/js/');

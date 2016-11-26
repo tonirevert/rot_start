@@ -22,6 +22,12 @@
                               else
                                  echo 'deactivate';
                         ?>"><a href="<?php amigable('?module=users&function=form_users'); ?>">USERS</a></li>
+                <li class="
+                        <?php if(isset($_GET['module']) === 'technicians')
+                                 echo'active';
+                              else
+                                 echo 'deactivate';
+                        ?>"><a href="<?php amigable('?module=technicians'); ?>">TECHNICIANS</a></li>
                 <li><a href="index.php?module=portfolio">PORTFOLIO</a></li>
                 <li><a href="index.php?module=pricing">PRICING</a></li>
                 <li class="

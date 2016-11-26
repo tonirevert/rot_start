@@ -34,7 +34,7 @@
       handlermodule($URI_module, $URI_function);
   }//End handleRouter
 
-  function handlerModule($URI_module, $URI_function) {
+  function handlermodule($URI_module, $URI_function) {
 	    $modules = simplexml_load_file('resources/modules.xml');
 	    $exist = false;
 
@@ -46,10 +46,10 @@
 	        $path = MODULES_PATH . $URI_module."/controller/controller_".$URI_module.".class.php";
   				if (file_exists($path)) {
             require_once($path);
-  					$controllerClass = "controller_" . $URI_module;
-
-  					$obj = new $controllerClass;
+  					$controllerclass = "controller_" . $URI_module;
+  					$obj = new $controllerclass;
   				} else {
+            // handlermodule('main', 'begin');
             showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
   				}
 	        handlerfunction(((String)$module->name), $obj, $URI_function);
@@ -57,11 +57,12 @@
 	        }
 	    }
 	    if (!$exist) {
+          // handlermodule('main', 'begin');
           showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
 	    }
 	}//End handleModule
 
-  function handlerFunction($module, $obj, $URI_function){
+  function handlerfunction($module, $obj, $URI_function){
 
       $functions = simplexml_load_file(MODULES_PATH . $module . "/resources/functions.xml");
       $exist = false;
@@ -74,6 +75,7 @@
           }
       }
       if(!$exist){
+        // handlermodule('main', 'begin');
         showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
       }else{
         call_user_func(array($obj, $event));
