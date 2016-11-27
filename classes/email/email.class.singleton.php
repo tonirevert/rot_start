@@ -1,6 +1,4 @@
 <?php
-    //require(LIBS . 'PHPMailer_v5.1/class.phpmailer.php');
-    //require(LIBS . 'PHPMailer_v5.1/class.smtp.php');
 
     class email {
         private $body;

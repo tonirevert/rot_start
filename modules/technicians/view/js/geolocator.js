@@ -1,5 +1,6 @@
 $(document).ready(start);
 
+
 function start() {
 
     // console.log(amigable("?module=technicians&function=maploader"));
@@ -36,6 +37,7 @@ function start() {
             alert('Uncaught Error: ' + xhr.responseText);
         }
     });
+
 }
 
 function mostrarUbicacion(position) {
@@ -72,11 +74,14 @@ function marcar(map, oferta) {
       icon: markerIcon,
       map: map,
       title: oferta.descripcion,
-      animation: google.maps.Animation.DROP
+      animation: google.maps.Animation.BOUNCE
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: '<h3 class="oferta_title">Technician in ' + oferta.lugar_inicio + '</h3><p class="oferta_content">' + oferta.descripcion + '</p><p class="oferta_content">Día: ' + oferta.fecha_inicio + '</p><p class="oferta_content">Horario: ' + oferta.hora_inicio + ' - ' + oferta.hora_final + '</p>'
+        content: '<h3 class="oferta_title">Technician in ' + oferta.lugar_inicio + '</h3>'+
+                 '<p class="stars-container stars-'+ oferta.descripcion + '">★★★★★</p>'+
+                 '<p class="oferta_content">Día: ' + oferta.fecha_inicio + '</p>'+
+                 '<p class="oferta_content">Horario: ' + oferta.hora_inicio + ' - ' + oferta.hora_final + '</p>'
     });
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
@@ -133,8 +138,10 @@ function cargarmap(arrArguments) {
         var map = new google.maps.Map(document.getElementById("mapholder"), myOptions);
         // var marker = new google.maps.Marker({position: latlon, map: map, title: "You are here!"});
 
-        for (var i = 0; i < arrArguments.length; i++)
+        for (var i = 0; i < arrArguments.length; i++){
             marcar(map, arrArguments[i]);
+            // show_image(arrArguments.descripcion);
+        }
     }
     function showError(error){
         switch (error.code){
@@ -151,4 +158,15 @@ function cargarmap(arrArguments) {
                 x.innerHTML = "Ha ocurrido un error desconocido.";
                 break;
         }
-    }}
+    }
+}
+
+function show_image (number) {
+    document.getElementsByName("stars").innerHTML = '';
+    for (var i =0; i<number; i++){
+        var img = document.createElement("img");
+        img.height=10;
+        img.src = "http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/512/star-full-icon.png";
+       document.getElementById("stars").appendChild(img);
+    }
+}

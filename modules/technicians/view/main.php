@@ -1,5 +1,6 @@
 <!--<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCviZ569vHIB8lmT5PlDENQ9eLHNpNBYtc" async defer></script>
+
 <script src="<?php echo TECHNICIANS_JS_PATH ?>geolocator.js"></script>
 
 <section id="main" class="wrapper">
@@ -19,4 +20,5 @@
         </div>
 
     </div>
+    <br/><br/><br/>
 </section>
