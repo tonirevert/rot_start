@@ -10,5 +10,5 @@ Thumbs.db
 *~
 # Project generated folders #
 #############################
-log/
-.ini
+*.log
+*.ini
