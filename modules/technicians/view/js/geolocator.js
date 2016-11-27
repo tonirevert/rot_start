@@ -6,12 +6,12 @@ function start() {
     // console.log(amigable("?module=technicians&function=maploader"));
     $.post(amigable("?module=technicians&function=maploader"), {value: {send: true}},
     function (response) {
-        console.log(response.technicians);
+        // console.log(response.technicians);
         if (response.success) {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(mostrarUbicacion);
-                cargarmap(response.technicians);
-                cargarofertas(response.technicians);
+                loadmap(response.technicians);
+                loadtechnicians(response.technicians);
             } else {
                 alert("¡Error! Este navegador no soporta la Geolocalización.");
             }
@@ -20,7 +20,7 @@ function start() {
                 window.location.href = amigable("?module=main&fn=begin&param=503");
         }
     }, "json").fail(function (xhr, textStatus, errorThrown) {
-        console.log(xhr.responseText);
+        // console.log(xhr.responseText);
         if (xhr.status === 0) {
             alert('Not connect: Verify Network.');
         } else if (xhr.status === 404) {
@@ -42,46 +42,51 @@ function start() {
 
 function mostrarUbicacion(position) {
     var times = position.timestamp;
-    var latitud = position.coords.latitude;
-    var longitud = position.coords.longitude;
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
     var altitud = position.coords.altitude;
     var exactitud = position.coords.accuracy;
 
     //setCookie("lat", latitud, 14);
     //setCookie("lon", longitud, 14);
-    Tools.createCookie("lat", latitud, 1);
-    Tools.createCookie("lon", longitud, 1);
+    Tools.createCookie("lat", longitude, 1);
+    Tools.createCookie("lon", longitude, 1);
 }
 
 function refrescarUbicacion() {
     navigator.geolocation.watchPosition(mostrarUbicacion);
 }
 
-function cargarofertas(of) {
-    for (var i = 0; i < of.length; i++) {
-        var content = '<div class="of" id="' + of[i].id + '"><div class="desc">' + of[i].descripcion + '</div><div class="fecha"> Fecha: ' + of[i].fecha_inicio + ' - ' + of[i].fecha_final + '</div><div class="hora"> Hora: ' + of[i].hora_inicio + ' - ' + of[i].hora_final + '</div><div class="precio"> Precio: ' + of[i].precio + ' €</div></div>';
+function loadtechnicians(tech) {
+    for (var i = 0; i < tech.length; i++) {
+        var content = '<div class="of" id="' + tech[i].id + '">'+
+                      '<div class="desc">' + tech[i].name +' '+ tech[i].surname1 + '</div>'+
+                      '<div class="fecha"> Values: ' + '<p class="stars-container stars-'+ (tech[i].points/tech[i].val_qty) + '">★★★★★</p>'+ '</div>'+
+                      '<div class="hora"> Schedule: ' + tech[i].time_start + ' - ' + tech[i].time_end + '</div>'+
+                      '<div class="precio"><a href="#">+info</a>'+' '+'<a href="#">Contact</a></div></div>';
         $('.ofertas').append(content);
     }
 }
 
 /*Route to the marker used in the map*/
 var MARKER_PATH = '/rot/modules/technicians/view/img/';
-function marcar(map, oferta) {
+function marcar(map, tech) {
     var markerIcon = MARKER_PATH + 'location.png';
-    var latlon = new google.maps.LatLng(oferta.latitud, oferta.longitud);
+    var latlon = new google.maps.LatLng(tech.latitude, tech.longitude);
     var marker = new google.maps.Marker({
       position: latlon,
       icon: markerIcon,
       map: map,
-      title: oferta.descripcion,
-      animation: google.maps.Animation.BOUNCE
+      title: tech.name + ' ' + tech.surname1,
+      animation: google.maps.Animation.DROP
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: '<h3 class="oferta_title">Technician in ' + oferta.lugar_inicio + '</h3>'+
-                 '<p class="stars-container stars-'+ oferta.descripcion + '">★★★★★</p>'+
-                 '<p class="oferta_content">Día: ' + oferta.fecha_inicio + '</p>'+
-                 '<p class="oferta_content">Horario: ' + oferta.hora_inicio + ' - ' + oferta.hora_final + '</p>'
+        content: '<h3 class="oferta_title">' + tech.name + ' ' + tech.surname1 + '</h3>'+
+                 '<p class="stars-container stars-'+ (tech.points/tech.val_qty) + '">★★★★★</p>'+
+                 '<p class="oferta_content">Schedule: ' + tech.time_start + ' - ' + tech.time_end + '</p>'+
+                 '<p class="oferta_content"><a href="#">+info</a>'+' '+'<a href="#">Contact</a></p>'
+
     });
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.open(map, marker);
@@ -116,8 +121,8 @@ function marcar(map, oferta) {
     });
 }
 
-function cargarmap(arrArguments) {
-  console.log("cargarmap");
+function loadmap(arrArguments) {
+  // console.log("cargarmap");
 
     var x = document.getElementById("demo");
     navigator.geolocation.getCurrentPosition(showPosition, showError);
