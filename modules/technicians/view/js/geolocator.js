@@ -99,12 +99,13 @@ function marcar(map, tech) {
 
             iwBackground.children(':nth-child(2)').css({'display': 'none'});
             iwBackground.children(':nth-child(4)').css({'display': 'none'});
-            iwBackground.children(':nth-child(1)').attr('style', function (i, s) {
-                return s + 'left: 76px !important;'
-            });
-            iwBackground.children(':nth-child(3)').attr('style', function (i, s) {
-                return s + 'left: 76px !important;'
-            });
+            //Lines commented to prevent the InfoWindow tail to move to the left
+            // iwBackground.children(':nth-child(1)').attr('style', function (i, s) {
+            //     return s + 'left: 76px !important;'
+            // });
+            // iwBackground.children(':nth-child(3)').attr('style', function (i, s) {
+            //     return s + 'left: 76px !important;'
+            // });
             iwBackground.children(':nth-child(3)').find('div').children().css({'box-shadow': 'rgba(72, 181, 233, 0.6) 0px 1px 6px', 'background-color': '#f5f5f5', 'z-index': '1'});
 
             iwCloser.css({

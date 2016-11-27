@@ -1,0 +1,45 @@
+27/11/16 06:47:23 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 06:51:22 PM | ERROR: [8192] mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead
+Unknown Error on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:51:22 PM | ERROR: [2] mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO)
+Warning on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:51:22 PM | ERROR: [2] mysql_query(): A link to the server could not be established
+Warning on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:51:22 PM | ERROR: [8] Undefined variable: db
+Notice on line 23 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:53:41 PM | ERROR: [8192] mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead
+Unknown Error on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:53:41 PM | ERROR: [2] mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO)
+Warning on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:53:41 PM | ERROR: [2] mysql_query(): A link to the server could not be established
+Warning on line 22 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:53:41 PM | ERROR: [8] Undefined variable: db
+Notice on line 23 in file /var/www/html/rot/model/db.class.singleton.php
+ |  | response 200
+27/11/16 06:59:18 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 07:03:15 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 07:05:16 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 07:06:59 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 07:15:14 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
+27/11/16 07:24:10 PM | ERROR: [8] Undefined variable: fields
+Notice on line 80 in file /var/www/html/rot/modules/technicians/model/DAO/technicians_dao.class.singleton.php
+ |  | response 200
